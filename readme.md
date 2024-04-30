@@ -6,9 +6,9 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keyboard that integrates an ortholinear QWERTY layout, SpaceMouse, macro pad, and left number pad into a single system to optimize productivity and ergonomics in 3D design, CAD, and Engineering, and 3D CNC programming. It is A fork of the Allium58 by beekeeb which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
+The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keyboard that integrates an ortholinear QWERTY layout, SpaceMouse, macro pad, and left number pad into a single system to optimize productivity and ergonomics in 3D design, CAD, and Engineering, and 3D CNC programming. It is A fork of the [Allium58 by beekeeb](https://github.com/beekeeb/Allium58) which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
 
-_This is configured for right handed mouse use, but could be easily mirrored to work in a left hand dominant setup. _
+_NOTE: This design is configured for right handed mouse use, but could be easily mirrored to work in a left hand dominant setup. _
 
 The SpaceMouse is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) 
 This keyboard is designed to integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
