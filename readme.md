@@ -27,8 +27,10 @@ The Allium58CAD was developed after scouring the internet for both commercial op
 
 Most of the availible solutions add additional buttons/keys around the SpaceMouse Joystick, basically adding a macro pad to go with the SpaceMouse. I, along with others, have discovered the utility of a left hand number pad, so that I can quickly enter in values without taking my hand off the mouse.  When you put all of this together, it leaves you with a left number pad, a macro-pad, a spacemouse, and a traditional keyboard all taking up room on your desktop.  Furthermore, since they are all seperate, they are unintentionally getting shifted around the desktop, which interferes with the muscle memory of what is where.
 
-**solition:**
-Allium58CAD utilizes ZMK programming and a custom case to integrate all of these items into a single system, decreasing desktop clutter instead of adding to it. The split keyboard functionality has the added benifit of leaving desk space directly in front of you for hardcopy reference documents (such as the Machinery's Handbook).
+**Solution:**
+- Allium58CAD utilizes ZMK programming and a custom case to integrate all of these items into a single system, decreasing desktop clutter instead of adding to it.
+- The split keyboard functionality has the added benifit of leaving desk space directly in front of you for hardcopy reference documents (such as the Machinery's Handbook).
+- The magnetic snap function allows the board to be used as two seperate keyboards, or snapped together to function like a unibody split keyboard  
 
 I chose to use low profile choc switches because of the angle at which you hold the SpaceMouse. The low, flat profile puts the macro keys in the right position to be easily reached while manupulating the SpaceMouse joystick. 
 I attempted to impliment some tenting in the Keyboard case, but found that it got in the way of using the SpaceMouse. Raising the spacemouse up to compensate for the tenting height was tested but made the spacemouse akward to use. 
