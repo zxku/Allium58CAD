@@ -1,6 +1,6 @@
 # Allium58CAD
 
-![Allium58CAD Keyboard](docs/banner.jpg)
+//![Allium58CAD Keyboard](docs/banner.jpg)
 
 [WORK IN PROGRESS...]
 
@@ -41,9 +41,7 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 
 ## Photos
 
-![Allium58CAD Keyboard](docs/photo-1.jpg)
 ![Allium58CAD Keyboard](docs/photo-2.jpg)
-![Allium58CAD Keyboard](docs/photo-3.jpg)
 
 ## Bill of Materials (BOM)
 
