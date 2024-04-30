@@ -1,23 +1,27 @@
-# Allium58
+# Allium58CAD
 
 ![Allium58 GLP Keyboard](docs/banner.jpg)
 
+[WORK IN PROGRESS...]
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-The Allium58 is an open source 6*4+4keys column-staggered split keyboard. It is based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). The Allium58 shares the same layout as the Lily58 Pro and also supports using the original Lily58 Pro firmware. However, several changes have been made to the board:
+The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keyboard that integrates an ortholinear QWERTY layout, SpaceMouse, macro pad, and left number pad into a single system to optimize productivity and ergonomics in 3D design, CAD, and Engineering, and 3D CNC programming. It is A fork of the Allium58 by beekeeb which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
 
-- **Enhanced Wireless Capability:** The Allium58 is designed to be more suitable for wireless builds. It provides native support for utilizing power-saving nice!view or other memory-in-pixel displays. This allows for efficient power management and extended battery life.
+_This is configured for right handed mouse use, but could be easily mirrored to work in a left hand dominant setup. _
 
-- **Improved Battery Management:** To enhance battery management, power switches and JST battery sockets have been added to the Allium58. These additions make it easier to control power supply and facilitate seamless battery replacement.
+The SpaceMouse is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) 
+This keyboard is designed to integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
+_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve, but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.  It alows you to manipulate the 3D space simultaniously and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._ 
 
-- **GLP (Gateron Low Profile) Socket Compatibility:** A variant of Allium58 that works with Gateron Low Profile sockets. This allows for the use of Gateron KS-27/KS-33 low-profile key switches.
+The biggest downside of a spacemouse is that you must remove your hand, reaching up and over it to hit any of the keyboard keys. While most 3D software can be navigated almost completely with a mouse and the menus, shortcuts are much more efficient, and it is often still nessessary to use some of the modifier keys in conjunction with the mouse. The Allium58CAD was developed after scouring the internet for both commercial options and custom implementations to address this issue, and not finding a satisfactory solution. The Allium58CAD integrates a keyboard, SpaceMouse, number pad, and macro pad into a single system and I am convinced that “this is the way”.  
+Most of the availible solutions add additional buttons/keys around the SpaceMouse Joystick, basically adding a macro pad to go with the space mouse. I, along with others, have also discovered the utility of a left hand number pad, so that I can quickly enter in values without taking my hand off the mouse.  Now you have a left number pad, a macro-pad, a spacemouse, and a traditional keyboard all taking up room on your desktop.  Allium58CAD utilizes layers in ZMK to integrate all of these into a single system decreasing desktop clutter instead of adding to it. The split keyboard functionality has the added benifit of leaving space directly in front of you for hardcopy reference documents (such as the Machinery's Handbook).
+
+
 
 ## Status
 
-| Variant  | Status  |
-| ------------ | ------------ |
-| GLP (Gateron Low Profile) | Ready  |
-| MX & Choc  | WIP  |
+Initial build underway...     As of 4/30/2023 this is still a work in progress 
 
 ## Photos
 
@@ -58,18 +62,27 @@ The Allium58 is an open source 6*4+4keys column-staggered split keyboard. It is 
 | Microcontroller/OLED Sockets & Pins | 1 set |  | |
 
 ## Case
-- Top Plate & Low Profile Bottom Case: https://www.printables.com/model/657755-low-profile-case-for-allium58-glp
+- Top Plate & Low Profile Bottom Case:     ...
+-** PCB Trimming Instructions**: ...work in progres...
+    PCB will require slight trimming on the lower right of the left hand PCB, this puts the spacemouse in a comfortable position for       the Control, S, D, A, and Escape buttons.
+    I recommend throughly taping off the rest of the exposed PCB with removable painters tape etc. to protect it from dust and debris.
+    A dremel tool with a cut off wheel works well. A fine tooth coping saw could probably also be used.  Follow the template below to      make sure you dont overcut. 
+          NOTE: At some point, it would be nice to get a custom PCB, but for now the modification will have to do. 
+
+  ------  CAUTION!!! overcutting could render the bottom row of keys unuseable, be cautious and precise! -------
 
 ## Firmware
 
-- [QMK](https://github.com/qmk/qmk_firmware "QMK") - compatible with `lily58/rev1`
-- [Vial](https://github.com/vial-kb/vial-qmk "Vial") (based on QMK) - supported
 - [ZMK](https://github.com/zmkfirmware/zmk "ZMK") - supported
+- [ZMK config files](https://github.com/zxku/zmk-config)
+- Keymap file (WIP)
+- Solidworks Shortcuts to Program (WIP)
+- [Custom labeled MBK Keycap set](https://fkcaps.com/custom/9WTR81) - In PBT white, allows for a custom color dye job!
+- [Custom color mod keys MBK keycaps](https://fkcaps.com/custom/U5X2FC)
 
 
 ## Ordering Parts
 
-- Wired: https://shop.beekeeb.com/product/allium58-glp-wired-kit/
 - Wireless: https://shop.beekeeb.com/product/allium58-glp-wireless-kit/
 
 ## External Libraries
@@ -79,11 +92,10 @@ The Allium58 is an open source 6*4+4keys column-staggered split keyboard. It is 
 
 ## More Information
 
-* [A great doc about Gateron Low Profile switches writen by Rafael Yumagulov](https://ergonautkb.github.io/docs/switches/gateron-low-profile/)
-* [Keycaps for Gateron Low Profile Key Switches](https://showcase.beekeeb.com/the-keycaps-of-gateron-low-profile-key-switches-and-kailh-choc-v1-key-switch/)
+
 
 ## Credits
 
-This open source hardware project is created by [beekeeb](https://beekeeb.shop) and other contributors. It is based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro).
+This fork by zxku is an open source hardware project originally created by [beekeeb](https://beekeeb.shop) and other contributors. It is based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro).
 
 [<img src="docs/beekeeb.png" height="80" />](https://beekeeb.shop)
