@@ -8,7 +8,7 @@
 _This picture is of the 3D printed moc up._
 
 --------------------------------------------------
-[WORK IN PROGRESS...]
+[THIS IS A WORK IN PROGRESS...]
 ___________________________________________________
 
 
