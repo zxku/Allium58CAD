@@ -65,7 +65,8 @@ The included keymap is designed to combine all the basic funcitons of a standard
 
 # Legend Layout Guide
 ![Legend Guide](https://github.com/zxku/Allium58CAD/assets/167131775/0453577a-7bf1-47eb-ae9f-0f5b584b51cd)
-
+![LEGEND](https://github.com/zxku/Allium58CAD/assets/167131775/621a4df4-9f2f-48d7-ad08-32f0730ce9aa)
+[Link to FK custom layout](https://fkcaps.com/custom/9WTR81)
 
 
 ## Status
