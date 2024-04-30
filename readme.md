@@ -19,7 +19,7 @@ The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keybo
 It is a fork of the [Allium58 by beekeeb](https://github.com/beekeeb/Allium58) which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
 
 
-The SpaceMouse is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) 
+The SpaceMouse itself is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) 
 The Allium58CAD is designed to integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
 
 _If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve, but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.  It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._ 
@@ -38,7 +38,10 @@ Most of the availible solutions add additional buttons/keys around the SpaceMous
 **Solution:**
 - Allium58CAD utilizes ZMK programming and a custom case to integrate all of these items into a single system, decreasing desktop clutter instead of adding to it.
 - The split keyboard functionality has the added benifit of leaving desk space directly in front of you for hardcopy reference documents (such as the Machinery's Handbook).
-- The magnetic snap function allows the board to be used as two seperate keyboards, or snapped together to function like a unibody split keyboard  
+- The magnetic snap function allows the board to be used as two seperate keyboards, or snapped together to function like a unibody split keyboard
+- Most SpaceMouse users start off with the basic spacemouse model, getting a feel for using it before commiting further investment for added utility. The Allium58CAD allows users to utilize their existing equipment instead of reinvesting in a whole new module.
+- ZMK allows users to customize the key layout for their paticular preference or software. The starting keymap is designed to work with solidworks, but it can be adapted for other software packages. (I'm hoping it will be easier to tweak and modify my [existing keymap](https://github.com/zxku/zmk-config/blob/main/config/lily58.keymap) instead of building one from scratch like I did)
+
 
 I chose to use low profile choc switches because of the angle at which you hold the SpaceMouse. The low, flat profile puts the macro keys in the right position to be easily reached while manupulating the SpaceMouse joystick. 
 I attempted to impliment some tenting in the Keyboard case, but found that it got in the way of using the SpaceMouse. Raising the spacemouse up to compensate for the tenting height was tested but made the spacemouse akward to use. 
