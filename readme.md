@@ -1,10 +1,11 @@
 # Allium58CAD
 
-![Allium58CAD Keyboard](docs/banner.jpg)
+
+![Prototype Picture](https://github.com/zxku/Allium58CAD/assets/167131775/380984bc-6e11-4af9-8e7e-8524cc75f92c)
 
 
 
-
+_This picture is of the 3D printed moc up._
 
 [WORK IN PROGRESS...]
 
@@ -40,11 +41,31 @@ Most of the availible solutions add additional buttons/keys around the SpaceMous
 - The split keyboard functionality has the added benifit of leaving desk space directly in front of you for hardcopy reference documents (such as the Machinery's Handbook).
 - The magnetic snap function allows the board to be used as two seperate keyboards, or snapped together to function like a unibody split keyboard
 - Most SpaceMouse users start off with the basic spacemouse model, getting a feel for using it before commiting further investment for added utility. The Allium58CAD allows users to utilize their existing equipment instead of reinvesting in a whole new module.
-- ZMK allows users to customize the key layout for their paticular preference or software. The starting keymap is designed to work with solidworks, but it can be adapted for other software packages. (I'm hoping it will be easier to tweak and modify my [existing keymap](https://github.com/zxku/zmk-config/blob/main/config/lily58.keymap) instead of building one from scratch like I did)
+- ZMK allows users to customize the key layout for their paticular preference or software. The starting keymap is designed to work with solidworks, but it can be adapted for other software packages.
+  
+I'm hoping it will be easier to tweak and modify my [existing keymap](https://github.com/zxku/zmk-config/blob/main/config/lily58.keymap) instead of building one from scratch like I did. Same thing goes for the FK custom keymap legend included in this documentation.  It ended up taking quite a bit of time to compile both of them, and I wish I had had someone elses map to edit from instead of building the whole thing from scratch. 
 
 
 I chose to use low profile choc switches because of the angle at which you hold the SpaceMouse. The low, flat profile puts the macro keys in the right position to be easily reached while manupulating the SpaceMouse joystick. 
 I attempted to impliment some tenting in the Keyboard case, but found that it got in the way of using the SpaceMouse. Raising the spacemouse up to compensate for the tenting height was tested but made the spacemouse akward to use. 
+
+# Keymap 
+The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. Quite a few ZMK behaviors were utilized to make this happen. 
+
+- One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the default layer.
+- Instead of numbers on the top row of the default layer, it has their corrisponding symbols. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row.
+- The second layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
+- The second layer is accessed in two ways: 1)A layer toggle on/off on the left pinky. 2) A "sticky momentary layer" toggle on the thumb of the right pad. This momentary switch is positioned such that it is easily reached while pressing the arrow keys.
+  ("sticky momentary layer" is the term I use for urobs capsword PR that I use. In fact I use his entire fork. This PR allows you to impliment a capsword type of behavior on layers and things that are not alphanumerics. So after you tap the arrow nav toggle button, the layer will stay active untill you type anything that isnt a nav key, number key, or the right layer toggle key)
+- The third layer is the utility layer containing boot mode and bluetooth connecting buttons. programming is implimented to require hold to activate boot, reset, and BT clear, not labeled in the legend are the bluetooth disconnect keys that are below their corrisponding selector key.
+- The last layer is only used for a quirky toggle functionality I require for solidworks (wireframe to shaded with lines requires two differnent commands, to make it toggle function. It activates a layer that is transparent except for that key.)
+
+- Combos are utilized to fit some things that didn't otherwise have a spot. Combo keys are indicated by little icons on the touching edges of both keys. (all combos are side by side)
+
+# Legend Layout Guide
+![Legend Guide](https://github.com/zxku/Allium58CAD/assets/167131775/0453577a-7bf1-47eb-ae9f-0f5b584b51cd)
+
+
 
 ## Status
 
