@@ -1,8 +1,16 @@
 # Allium58CAD
 
-//![Allium58CAD Keyboard](docs/banner.jpg)
+![Allium58CAD Keyboard](docs/banner.jpg)
+
+
+
+
 
 [WORK IN PROGRESS...]
+
+
+
+
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
