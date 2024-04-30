@@ -7,8 +7,9 @@
 
 _This picture is of the 3D printed moc up._
 
+--------------------------------------------------
 [WORK IN PROGRESS...]
-
+--------------------------------------------------
 
 
 
@@ -54,13 +55,15 @@ The included keymap is designed to combine all the basic funcitons of a standard
 
 - One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the default layer.
 - Instead of numbers on the top row of the default layer, it has their corrisponding symbols. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row.
-- The second layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
-- The second layer is accessed in two ways: 1)A layer toggle on/off on the left pinky. 2) A "sticky momentary layer" toggle on the thumb of the right pad. This momentary switch is positioned such that it is easily reached while pressing the arrow keys.
+- The second "Tools" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
+- The second "Tools" layer is accessed in two ways: 1)A layer toggle on/off on the left pinky. 2) A "sticky momentary layer" toggle on the thumb of the right pad. This momentary switch is positioned such that it is easily reached while pressing the arrow keys.
   ("sticky momentary layer" is the term I use for urobs capsword PR that I use. In fact I use his entire fork. This PR allows you to impliment a capsword type of behavior on layers and things that are not alphanumerics. So after you tap the arrow nav toggle button, the layer will stay active untill you type anything that isnt a nav key, number key, or the right layer toggle key)
 - The third layer is the utility layer containing boot mode and bluetooth connecting buttons. programming is implimented to require hold to activate boot, reset, and BT clear, not labeled in the legend are the bluetooth disconnect keys that are below their corrisponding selector key.
 - The last layer is only used for a quirky toggle functionality I require for solidworks (wireframe to shaded with lines requires two differnent commands, to make it toggle function. It activates a layer that is transparent except for that key.)
 
 - Combos are utilized to fit some things that didn't otherwise have a spot. Combo keys are indicated by little icons on the touching edges of both keys. (all combos are side by side)
+- Caps Lock is implimented as a double tap behavior on the left shift key.
+- The outermost lower left key on the left keypad switches between the default and the tools layer, holding it will toggle the utility layer.
 
 # Legend Layout Guide
 ![Legend Guide](https://github.com/zxku/Allium58CAD/assets/167131775/0453577a-7bf1-47eb-ae9f-0f5b584b51cd)
