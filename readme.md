@@ -81,8 +81,16 @@ The included keymap is designed to combine all the basic funcitons of a standard
      
 - Tools Layer `Layer 1`
   - The "Tools" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
-  - The second "Tools" layer is accessed in two ways: 1)A layer toggle on/off on the left pinky. 2) A "sticky momentary layer" toggle on the thumb of the right pad. This momentary switch is positioned such that it is easily reached while pressing the arrow keys.
-  ("sticky momentary layer" is the term I use for urobs capsword ![PR 1451](https://github.com/zmkfirmware/zmk/pull/1451#) that I use. In fact I use his entire ![fork](https://github.com/urob/zmk). This PR allows you to impliment smart layers which is a modified capsword type of behavior for layers and things that are not alphanumerics. So after you tap the arrow nav toggle button, the layer will stay active untill you type anything that isnt a nav key, number key, or the layer toggle key)
+  - point of this layer...
+  - ...sketch mods...
+  - ...model mods...
+  - ...solidworks keys...
+  - 
+  - The "Tools" layer is accessed in two ways:
+     1) A layer toggle on/off on the lower left pinky on the left keypad.
+     2) A "sticky momentary layer" toggle on the thumb of the right pad. This momentary switch is positioned such that it is easily reached while pressing the arrow keys.
+  >("sticky momentary layer" is the term I use for urobs capsword [PR 1451](https://github.com/zmkfirmware/zmk/pull/1451#) that I use. In fact I use his entire [fork](https://github.com/urob/zmk). This PR allows you to impliment smart layers which is a modified capsword type of behavior for layers and things that are not alphanumerics. So after you tap the arrow nav toggle button, the layer will stay active untill you type anything that isnt a nav key, number key, or the layer toggle key)
+  -
 
 - Utility Layer `Layer 2`
   - This contains needed utility keys such as boot mode and bluetooth connectivity buttons.
@@ -111,11 +119,12 @@ The included keymap is designed to combine all the basic funcitons of a standard
 - Layer Switching Keys
   - The outermost lower left key on the left keypad switches between the default and the tools layer, holding it will toggle the utility layer.
   - The utility layer is a momentary sticky layer. The left layer key must be held to activate the layer, and then it is only good for one keypress before deactivating.
-    - While the Layer Key (layers symbol) on the left keypad toggles the layers on and off, the Navigation layer key (4 way arrow symbol, ✥) on the right keypad is used for temporary layer activation utilizing the smart layer function of ![urobs PR #1415](https://github.com/zmkfirmware/zmk/pull/1451#) 
-    - Pressing the Navigation layer key (✥)
-      
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/></svg>
+    - While the Layer Key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699)
+) on the left keypad toggles the layers on and off, the Navigation layer key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/1077704a-1e81-4a24-a88b-078da37be6c5)) on the right keypad is used for temporary layer activation utilizing the smart layer function of [urobs PR #1415](https://github.com/zmkfirmware/zmk/pull/1451#) 
+    - Pressing the Navigation layer key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the Default layer temporarily activates the Tools layer, allowing you to enter numbers and navigate with the arrow keys until spacebar, enter, return or a letter is pressed, when it will automatically return to the default layer.
+    - Simmilarily, pressing the Navigation layer key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the Tools layer temporarily activates the default layer, allowing you to enter letters and words with the arrow keys untill a break key is press, when it will automatically return to the default layer. Break keys for the Temporary alpha layer access are spacebar, enter, return or other break keys such as the parentheses and brackets
 
+      
 # Legend Layout Guide
 ![Legend Guide](https://github.com/zxku/Allium58CAD/assets/167131775/0453577a-7bf1-47eb-ae9f-0f5b584b51cd)
 ![LEGEND](https://github.com/zxku/Allium58CAD/assets/167131775/621a4df4-9f2f-48d7-ad08-32f0730ce9aa)
