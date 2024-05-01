@@ -68,6 +68,7 @@ The included keymap is designed to combine all the basic funcitons of a standard
 ![LEGEND](https://github.com/zxku/Allium58CAD/assets/167131775/621a4df4-9f2f-48d7-ad08-32f0730ce9aa)
 [Link to FK custom layout](https://fkcaps.com/custom/9WTR81)
 
+# Solidwokrks Shortcut List
 
 ## Status
 
