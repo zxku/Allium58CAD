@@ -19,14 +19,15 @@ The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keybo
 It is a fork of the [Allium58 by beekeeb](https://github.com/beekeeb/Allium58) which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
 
 >[!note]
->Although split keyboards with a number row have fallen out of favor, that additional top row is neesary to fit a number pad layout. That is why the Allium58 was chosen as the base design. 
+>Although split keyboards with a number row have fallen out of favor, that additional top row is nesessary to fit a number pad layout. That is why the Allium58 was chosen as the base design. 
 
-```
-The SpaceMouse itself is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) 
-The Allium58CAD is designed to integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
 
-_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve, but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.  It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._ 
-```
+>The SpaceMouse itself is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) 
+>The Allium58CAD is designed to integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
+>
+>_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve, but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.  It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._ 
+
+
 >[!tip]
 > _This design is configured for right handed mouse use, but could be easily mirrored to work in a left hand dominant setup._
 
