@@ -3,15 +3,16 @@
 ![Allium58CAD prototype2](https://github.com/zxku/Allium58CAD/assets/167131775/ff9a7fd3-d8ad-49f6-a4e2-4372c999faab)
 
 
-----------
---------------------------------------------------
+&nbsp;  
+___________________________________________________
+___________________________________________________
 THIS IS A WORK IN PROGRESS...
 ___________________________________________________
---------------
+___________________________________________________
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-
+&nbsp;  
 The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keyboard that integrates an ortholinear QWERTY layout, SpaceMouse, macro pad, and a left number pad into a single system to optimize productivity and ergonomics in 3D design, CAD, Engineering, and 3D CNC programming. 
 It is a fork of the [Allium58 by beekeeb](https://github.com/beekeeb/Allium58) which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
 
@@ -35,7 +36,7 @@ _One beginner tip: Turn off perspective view to make navigation more predictable
   > _This design is configured for right handed mouse use, but could be easily mirrored to work in a left hand dominant setup._
 
 
-
+&nbsp;  
 # Purpose of the Project
 
 
@@ -45,6 +46,7 @@ The Allium58CAD was developed after scouring the internet for both commercial op
 Most of the availible solutions add additional buttons/keys around the SpaceMouse Joystick, basically adding a macro pad to go with the SpaceMouse. I, along with others, have discovered the utility of a left hand number pad, so that I can quickly enter in values without taking my hand off the mouse.  When you put all of this together, it leaves you with a left number pad, a macro-pad, a spacemouse, and a traditional keyboard all taking up room on your desktop.  Furthermore, since they are all seperate, they are unintentionally getting shifted around the desktop, which interferes with the muscle memory of what is where.
 
 
+&nbsp;  
 ###### **Solution:**
 
 
@@ -66,6 +68,7 @@ I chose to use low profile choc switches because of the angle at which you hold 
 Tenting of the keyboard case was tested, but it got in the way of using the SpaceMouse. Raising the spacemouse up to compensate for the tenting height was tested as well but made the spacemouse akward to use. 
 
 
+&nbsp;  
 # Keymap 
 
 The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. This is accomplished using a combination of varrious ZMK behaviors. An in depth explination is beyond the scope of this document, I recommend reading up on the official [ZMK Behavior documentation](https://zmk.dev/docs/behaviors/)
@@ -100,21 +103,6 @@ I would program new layers to be conditional over top of the default `tools` lay
   - Sketch Commands:  All of the sketch related shortcuts are activated using the Shift key as the modifier and then the legends top left listed command will be the action.
   - Model Commands:   All of the Model and Assembly related commands are activated using the Alt key as the modifier. The action is listed as the second line in the top left corner of the legend, underneath the sketch command mentioned above.
     
-      |Key(s) | Legend Symbol| Command|
-     |----|----|------------------------------------------------------------------------------------------|
-      G| ![image](https://github.com/zxku/Allium58CAD/assets/167131775/e9f5ec32-9b74-4e83-a9e3-07bf1ad12107) | Opens a Shortcut Bar Menu at your cursor for quick selection. (This may get less use as I learn the shortcut keys)
-      R| ![image](https://github.com/zxku/Allium58CAD/assets/167131775/f2d4ac75-305a-49ac-b0d9-a5fd7ad74c7d) | Toggles command option type. Toggles through availible command options such as tangent arc vs. 3 point arc. 
-      F| ![image](https://github.com/zxku/Allium58CAD/assets/167131775/96e68555-f19a-46d3-a23c-b0344689cf55) | Brings confimation or cancellation box right to your mouse.
-      Ctrl|| Multi Item Select
-     Space|| Shortcut for the orthogonal view selector cube. 
-     Tab || Used to Hide or Show a part in an assembly
-     Delete, Alt, Shift, Esc, Enter |  | Need for these should be somewhat obvious
-      Ctrl+G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0f770d24-6b35-4175-a9a7-7f9e12531ad7) | Redo
-      Ctrl+F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/7e7e16a3-b0ec-4297-a5a9-cad5a4fa2781) | Undo
-      Ctrl+R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/2828d102-53e8-4ee7-a732-5c4d31db29b8) | Expand Quick Access Feature Tree
-      V & Ctrl V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/b1df7fdb-35c6-42ca-b534-1e2eb57c0165) | The combination of these two commands will toggle the view between wireframe and shaded with edges. Gives you X-ray vision...
-      Ctrl+Esc | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/40c1eb96-3cf1-4cae-a795-c31c9173f367) | Save Shortcut
-
 
      <a name="myfootnote1">1</a>: _Some of the keymap code references an A, S, and D keys mapped to the G, F, and R key locations. These keys are referencing default shortcuts key chosen by solidworks, I only kept the names for continuity. This is also why the icons incorperate the A and S, to help solidworks users familiar with those commands._
 
@@ -161,22 +149,45 @@ I would program new layers to be conditional over top of the default `tools` lay
     - Pressing the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the Default layer temporarily activates the Tools layer, allowing you to enter numbers and navigate with the arrow keys until spacebar, enter, return or a letter is pressed, when it will automatically return to the default layer.
     - Simmilarily, pressing the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the Tools layer temporarily activates the default layer, allowing you to enter letters and words with the arrow keys untill a break key is press, when it will automatically return to the default layer. Break keys for the Temporary alpha layer access are spacebar, enter, return or other break keys such as the parentheses and brackets
 
-      
+&nbsp;        
 # Legend Layout Guide
 
-##### Guide Key:
-![image](https://github.com/zxku/Allium58CAD/assets/167131775/155edd47-2541-422e-bad8-8e0543f858f6)
+### Keycap Legend Location Layout:
+![Legend layout guide](https://github.com/zxku/Allium58CAD/assets/167131775/5a431003-e01b-44c2-8be6-0a0949a80c74)
 
-##### Full Legend:
+
+
+### [Full Legend:](#fk)
 ![Full FK Custom Allium58CAD Keycap Legend](https://github.com/zxku/Allium58CAD/assets/167131775/301a595e-6371-44ca-bf71-c4f385eb0e90)
 
 
-[Link to FK custom layout](https://fkcaps.com/custom/N1EN6S) If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
+[Link to FK custom layout](https://fkcaps.com/custom/N1EN6S){#fk} If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
 - You can also piece together a [custom remix](https://fkcaps.com/custom/U5X2FC) to add a little personality and flair. 
 
 
-##### Legend Icon Definitions
+&nbsp;  
 
+
+### Keymap Legend Definitions and Icons Keybindings
+###### Most Used
+  
+  
+|Key(s) | Legend Symbol| Command | 
+|-----|:----:|------------------------------------------------------------------------------------------| 
+G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/e9f5ec32-9b74-4e83-a9e3-07bf1ad12107) | Opens a Shortcut Bar Menu at your cursor for quick selection. (This may get less use as I learn the shortcut keys)
+R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/f2d4ac75-305a-49ac-b0d9-a5fd7ad74c7d) | Toggles command option type. Toggles through availible command options such as tangent arc vs. 3 point arc. 
+F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/96e68555-f19a-46d3-a23c-b0344689cf55) | Brings confimation or cancellation box right to your mouse.
+Ctrl | | Multi Item Select
+Space | |  Shortcut for the orthogonal view selector cube. 
+Tab | | Used to Hide or Show a part in an assembly
+Delete, Alt, Shift, Esc, Enter |  | Need for these should be somewhat obvious
+Ctrl + G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0f770d24-6b35-4175-a9a7-7f9e12531ad7) | Redo
+Ctrl + F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/7e7e16a3-b0ec-4297-a5a9-cad5a4fa2781) | Undo
+Ctrl + R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/2828d102-53e8-4ee7-a732-5c4d31db29b8) | Expand Quick Access Feature Tree
+V & Ctrl V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/b1df7fdb-35c6-42ca-b534-1e2eb57c0165) | The combination of these two commands will toggle the view between wireframe and shaded with edges. Gives you X-ray vision...
+Ctrl + Esc | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/40c1eb96-3cf1-4cae-a795-c31c9173f367) | Save Shortcut
+
+###### Additional Command Keybindings
   |Key(s) | Legend Symbol| Command|
   |----|:----:|:------------------------------------------------------------------------------------------|
   Shift + 9 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0b328cb1-4846-4b27-badc-13d96a7e5f34) | Override dimentions on Drag/Move
@@ -196,18 +207,21 @@ Shift + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d46717
 Alt + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/32b725a5-5d40-4b3a-9bf7-aa73a8de67cb) | Spell Check
 
 
-
+&nbsp;  
 ## Status
 
 Initial build underway...     As of 4/30/2023 this is still a work in progress 
 
-
+&nbsp;  
 ## Photos
 
 
+&nbsp;  
 ### This picture is of the 3D printed moc up:
 ![Prototype Picture](https://github.com/zxku/Allium58CAD/assets/167131775/380984bc-6e11-4af9-8e7e-8524cc75f92c)
 
+
+&nbsp;  
 ### Renderings:
 ![Allium58CAD prototype](https://github.com/zxku/Allium58CAD/assets/167131775/7d8de403-b1e2-47ef-907f-3594b26161f7)
 ![Allium58CAD prototype split](https://github.com/zxku/Allium58CAD/assets/167131775/04d745f9-60a9-4afb-99b2-9d7a1d351202)
@@ -215,13 +229,13 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 
 
 
-
+&nbsp;  
 ## Case
 
 - Top Plate & Low Profile Bottom Case:     ...To Be Added...
 
 
-
+&nbsp;  
 # PCB Trimming Instructions: ...work in progres...
 >[!warning]
 >This section should be attempted with caution to make sure you dont render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do.
@@ -237,7 +251,7 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 >[!Caution]
 >------ Overcutting the PCB could render the bottom row of keys unuseable! Be cautious and precise to make sure you aren't cutting through any of the circut traces in that corner of the board!------
 
-
+&nbsp;  
 ## Firmware
 
 - [ZMK](https://github.com/zmkfirmware/zmk "ZMK") - supported
@@ -248,11 +262,13 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 - Solidworks Shortcuts to Program (WIP)
 - [My personal Solidworks Workspace Settings Profile](https://github.com/zxku/Allium58CAD/blob/main/swSettingsReg%20Zac%20Alli58cad.sldreg)
 
-
+&nbsp;  
 # Solidworks Shortcuts Sketching and Modeling 
 
 In this list, I have only included the shortcuts relevant to the Tools layer of the Allium58CAD key layout. The full List, including defalut shortcuts, is availible as a PDF in the firmware section.
 
+
+&nbsp;  
 #### Main Commands
 
 
@@ -260,77 +276,79 @@ In this list, I have only included the shortcuts relevant to the Tools layer of 
 |-----------:|:-----------------------------:|:-----------------------|
 |**Catagory**|**Command**|**Shortcut Keys**|
 View	|		Orientation..		|	SpaceBar
-Others	|		View Selector		|	Ctrl+SpaceBar
+Others	|		View Selector		|	Ctrl + SpaceBar
 Others	|		Hide the Hovered-over Component/Bodies		|	TAB
-Others	|		Show the Hovered-over Component/Bodies		|	Shift+TAB
-Others	|		Show all the hidden Components/Bodies		|	Ctrl+Shift+TAB
+Others	|		Show the Hovered-over Component/Bodies		|	Shift + TAB
+Others	|		Show all the hidden Components/Bodies		|	Ctrl + Shift + TAB
 Edit	|		Repeat Last Command..		|	Enter
 Others	|		Expand/Collapse Tree		|	C
-Others	|		Normal To		|	Alt+SpaceBar
-Others	|		Zoom to Selection		|	Shift+SpaceBar
+Others	|		Normal To		|	Alt + SpaceBar
+Others	|		Zoom to Selection		|	Shift + SpaceBar
 Others	|		Shortcut Bar		|	S
 Others	|		Command option toggle		|	A
 Others	|		Move Selection Breadcrumbs, Confirmation Corner		|	D
 View	|		Wireframe..		|	Q
-View	|		Shaded With Edges..		|	Alt+Q
-Others	|		Spell Checker		|	Alt+Num 1
+View	|		Shaded With Edges..		|	Alt + Q
+Others	|		Spell Checker		|	Alt + Num 1
 | |				|	 |
 | |	**Sketch Commands**			|	|
-Tools	|		Construction Geometry..		|	Shift+Q
-Tools	|		Line..		|	Shift+Num -
-Tools	|		Spline..		|	Shift+Period
-Tools	|		Circle..		|	Shift+Num +
-Tools	|		3 Point Arc..		|	Shift+Num *
-Insert	|		Hole Wizard..		|	Alt+Num +
-Tools	|		Fully Define Sketch..		|	Shift+Num /
-Tools	|		Override Dims on Drag/Move..		|	Shift+9
-Tools	|		Close Sketch to Model..		|	Shift+8
-Tools	|		Silhouette Entities..		|	Shift+7
-Tools	|		Corner Rectangle..		|	Shift+6
-Tools	|		Convert Entities..		|	Shift+5
-Insert	|		Derived Sketch..		|	Shift+4
-Tools	|		Straight Slot..		|	Shift+3
-Tools	|		Offset Entities..		|	Shift+2
-Tools	|		Display/Delete..		|	Shift+0
-Tools	|		Show Spline Handles..		|	Shift+1
+Tools	|		Construction Geometry..		|	Shift + Q
+Tools	|		Line..		|	Shift + Num -
+Tools	|		Spline..		|	Shift + Period
+Tools	|		Circle..		|	Shift + Num +
+Tools	|		3 Point Arc..		|	Shift + Num *
+Insert	|		Hole Wizard..		|	Alt + Num +
+Tools	|		Fully Define Sketch..		|	Shift + Num /
+Tools	|		Override Dims on Drag/Move..		|	Shift + 9
+Tools	|		Close Sketch to Model..		|	Shift + 8
+Tools	|		Silhouette Entities..		|	Shift + 7
+Tools	|		Corner Rectangle..		|	Shift + 6
+Tools	|		Convert Entities..		|	Shift + 5
+Insert	|		Derived Sketch..		|	Shift + 4
+Tools	|		Straight Slot..		|	Shift + 3
+Tools	|		Offset Entities..		|	Shift + 2
+Tools	|		Display/Delete..		|	Shift + 0
+Tools	|		Show Spline Handles..		|	Shift + 1
 |	|				|	 |
 |	|	**Standard Commands**			|	|
 Edit	|		Delete..		|	Delete
-Edit	|		Undo..		|	Ctrl+Z
-Edit	|		Redo..		|	Ctrl+Y
-Edit	|		Cut..		|	Ctrl+X
-Edit	|		Copy..		|	Ctrl+C
-Edit	|		Paste..		|	Ctrl+V
-File	|		Save..		|	Ctrl+S
-View	|		Previous View..		|	Shift+Ctrl+Z (Shift+ Undo Combo Keys)
-Edit	|		Copy Appearance..		|	Shift+Ctrl+C (Shift + Copy Combo Keys)
-Edit	|		Paste Appearance..		|	Shift+Ctrl+V (Shift + Paste Combo Keys)
+Edit	|		Undo..		|	Ctrl + Z
+Edit	|		Redo..		|	Ctrl + Y
+Edit	|		Cut..		|	Ctrl + X
+Edit	|		Copy..		|	Ctrl + C
+Edit	|		Paste..		|	Ctrl + V
+File	|		Save..		|	Ctrl + S
+View	|		Previous View..		|	Shift + Ctrl + Z (Shift + Undo Combo)
+Edit	|		Copy Appearance..		|	Shift + Ctrl + C (Shift + Copy Combo)
+Edit	|		Paste Appearance..		|	Shift + Ctrl + V (Shift + Paste Combo)
 |	|				|	|
 |	|	**Model and Assembly Commands**			|	|
-Others	|		Select Other		|	Alt+Num /
-Insert	|		Plane..		|	Alt+Period
-Insert	|		Extruded Cut		|	Alt+Num *
-Insert	|		Extrude..		|	Alt+Num -
-Insert	|		Sweep..		|	Alt+2
-Insert	|		Revolve..		|	Alt+3,
-Tools	|		Magnified Selection..		|	Alt+4
-Insert	|		Sweep Cut		|	Alt+5
-Insert	|		Revolved Cut		|	Alt+6
+Others	|		Select Other		|	Alt + Num /
+Insert	|		Plane..		|	Alt + Period
+Insert	|		Extruded Cut		|	Alt + Num *
+Insert	|		Extrude..		|	Alt + Num -
+Insert	|		Sweep..		|	Alt + 2
+Insert	|		Revolve..		|	Alt + 3,
+Tools	|		Magnified Selection..		|	Alt + 4
+Insert	|		Sweep Cut		|	Alt + 5
+Insert	|		Revolved Cut		|	Alt + 6
 |	|				|	 |
 |	|	**PDM Commands**			|	|
-Tools	|		Get Latest Version..		|	Alt+7
-Tools	|		Check Out..		|	Alt+8
-Tools	|		Check In..		|	Alt+9
+Tools	|		Get Latest Version..		|	Alt + 7
+Tools	|		Check Out..		|	Alt + 8
+Tools	|		Check In..		|	Alt + 9
 |	|				|	|
 |	|	**Quick View  Commands**			|	|
-Others	|		Isometric		|	Ctrl+7
-Others	|		Bottom		|	Ctrl+6
-Others	|		Top		|	Ctrl+5
-Others	|		Right		|	Ctrl+4
-Others	|		Left		|	Ctrl+3
-Others	|		Back		|	Ctrl+2
-Others	|		Front		|	Ctrl+1
+Others	|		Isometric		|	Ctrl + 7
+Others	|		Bottom		|	Ctrl + 6
+Others	|		Top		|	Ctrl + 5
+Others	|		Right		|	Ctrl + 4
+Others	|		Left		|	Ctrl + 3
+Others	|		Back		|	Ctrl + 2
+Others	|		Front		|	Ctrl + 1
 
+
+&nbsp;  
 ## Bill of Materials (BOM)
 
 ### Required
@@ -341,12 +359,12 @@ Others	|		Front		|	Ctrl+1
 | Top plate | 2 sheets | 1.2mm thick |
 | Bottom plate / 3D printed case | 1 set | |
 | OLED cover | 2 | |
-| Pro Micro (compatible with Sea Picro RP2040) / nice!nano or equivalent | 2 |  |
+| nice!nano or equivalent | 2 |  |
 | Reset switch | 2 | |
 | Diodes | 58 | SMD Only (SOD-123 Package) |
-| Hotswap Sockets | 58 | [GLP variant] Gateron Low Profile Hotswap Sockets |
-| Key switches | 58 | [GLP variant] Gateron KS-33 / KS-27 |
-| Keycaps | 58 pieces | 1u 56 pcs, 1.5u 2 pcs [GLP Keycaps Comparison](https://showcase.beekeeb.com/the-keycaps-of-gateron-low-profile-key-switches-and-kailh-choc-v1-key-switch/) |
+| Hotswap Sockets | 58 | Choc Recommended, [Gateron is slightly taller alternative)(https://showcase.beekeeb.com/the-keycaps-of-gateron-low-profile-key-switches-and-kailh-choc-v1-key-switch/) |
+| Key switches | 58 | Sunset Orange Choc switches are recommended|
+| Keycaps | 58 pieces |1u: 48 pcs, 1u convex: 6, 1u homing: 2,  1.5u: 2 pcs [(Link)](#FK)
 | Female Threaded Brass Spacer M2 5mm | 10 pieces | For Case assembly |
 | Female Threaded Brass Spacer M2 9mm (or 14mm with MCU sockets) | 4 pieces | For OLED cover |
 | GP823 Screw M2 4mm | 28 screws | |
@@ -363,15 +381,17 @@ Others	|		Front		|	Ctrl+1
 | OLED module / nice!view display | 2 | |
 | Microcontroller/OLED Sockets & Pins | 1 set |  | |
 
+
+&nbsp;  
 ## Ordering Parts
 
 - Pre built Wireless: (https://shop.beekeeb.com/product/wireless-allium58-choc/)
-- 
+
+ 
 _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc version of the Allium58 on his website, he is very responsive, and if asked nicely he could probably send you one._
-  
-## External Libraries
 
 
+&nbsp;  
 ## More Information
 
 * {Official ZMK Documentation](https://zmk.dev/docs)
@@ -390,6 +410,8 @@ _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc 
 
 * [Interesting guide](https://imgur.com/a/LB65p) for implimenting ball bearing home key bumps. *\*Be sure to use stainless steel ball bearings, long term users reported back that standard carbon steel BB's were causing some staining from the formation of slight surface rust.    - For anyone with a perfectionism streak, the machinists version can be found [here](https://www.reddit.com/r/MechanicalKeyboards/comments/6r3n1t/ball_bearing_homing_keys/).
 
+
+&nbsp;  
 ## Credits
 
 This fork by zxku is an open source hardware project originally created by [beekeeb](https://beekeeb.shop) and other contributors. It is based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro).
@@ -398,4 +420,4 @@ This fork by zxku is an open source hardware project originally created by [beek
 [<img src="docs/beekeeb.png" height="80" />](https://beekeeb.shop)
 
 
-zxku is a pseudonym for Zac Morhous, A senior product design and development engineer who knows what he wants, and will over-engineer the shit out of it as a personal side project if it doesnt exist. 
+zxku is a pseudonym for Zac Morhous. A senior product design and development engineer who knows what he wants, and will over-engineer the shit out of it as a personal side project if it doesnt exist. 
