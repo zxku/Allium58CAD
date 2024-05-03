@@ -71,19 +71,19 @@ Tenting of the keyboard case was tested, but it got in the way of using the Spac
 The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. Quite a few ZMK behaviors were utilized to make this happen. 
 
 
-#### Keymap Ideology and Theory
+### Keymap Ideology and Theory
 - One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the default layer.
 - Instead of numbers on the top row of the default layer, it has just the symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row. And I find myself using that top row for the symbols far more often than I use the numbers.
 
 
-#### Layers Explained
+### Layers Explained
 
-###### Default Layer `Layer 0`
+#### Default Layer `Layer 0`
   - Instead of number keys across the top row of the default layer, it has just the corrisponding symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access to enter numbers. The number pad much faster than the number row for numerical entry. The symbols attached to those keys are used more often than I use the numbers. The parentheses in particular come to mind...
   - The layout tries to maintain as much standard QWERTY layout as possible, but not everything would fit perfectly. Several of the less used keys, : , ; , [ , ] , { , } , and DELETE, are implimented as side by side combos. Just hit two keys at the same time and it will output the corrisponding character.
   - Caps Lock is activiated using a double tap on the shift key.  It is a smart caps lock, so it will dissengage when any non alphabetical key is pressed. Traditional Caps Lock is activated with a tripple tap.
      
-###### Tools Layer `Layer 1`
+#### Tools Layer `Layer 1`
   - The "Tools" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
   - The left hand of this layer is intended to be the primary imput while 3D modeling, while your other hand remains on the mouse. This is why the left side is crammed full of programing to hold all of the macros in addition to the all important number pad for dimentions and data entry. It should be noted that for solidworks, these keys do not cover all of my most frequently used commands. I have a lot of frequently used commands mapped to mouse gestures in the custom configurator.
   - In general, the Ergo Keyboard Community encorages no legend keycaps, touchtyping from memory only. However, the infrequency of using some of these shortcuts makes memorizing them difficult, Thus why I thought it would be important to have labeled legends. The touchtype memory is also effected by the shifting of the hand durring use. Although a much shorter distance that the standard SpaceMouse setup, the hand will still be required to shift back and forth between the number pad and the spacemouse position. (Additional Homing Keys are being considered to help this).
@@ -93,7 +93,7 @@ The included keymap is designed to combine all the basic funcitons of a standard
           >I've included a copy of my solidworks workspace settings in the firmware section for reference to how I have the other commands set up)
   
   
-  ###### Tools Layer Modifier Keys
+  #### Tools Layer Modifier Keys
   -  Workhorse and Control Mod Key Placement: All of the most used keys are grouped close to the spacemouse such that they should be able to be pressed with pinky or ring finger while holding the SpaceMouse Joystick. <sup>[1](#1)</sup>
   - Sketch Commands:  All of the sketch related shortcuts are activated using the Shift key as the modifier and then the legends top left listed command will be the action.
   - Model Commands:   All of the Model and Assembly related commands are activated using the Alt key as the modifier. The action is listed as the second line in the top left corner of the legend, underneath the sketch command mentioned above.
@@ -126,7 +126,7 @@ The included keymap is designed to combine all the basic funcitons of a standard
    >[!warning]
    >There are a couple of non-model related commands on the tools layer, such as the Check-In and Check-Out commands that are specific to PDM use that my not apply to everyone. If creating your own build, assess the provided list of default commands to make sure that they meet your needs before ordering a set of custom keycaps.
 
-###### Utility Layer `Layer 2`
+#### Utility Layer `Layer 2`
   - This contains needed utility keys such as boot mode and bluetooth connectivity buttons.
   - Layer can be accessed from the Default or Tools layers by holding the left layer key. This layer is designed with a sticky layer. you must hold the layer key to activate it and then press the desired action. The layer is automatically deactivated after that keypress to prevent accidental keypressing. To subsequently hit a different key in the utility layer, you would have to hold the layer key again. 
   - Programming is implimented to require a hold to activate boot, reset, and BT clear keys. This is to prevent accidental activation.
@@ -135,22 +135,22 @@ The included keymap is designed to combine all the basic funcitons of a standard
   - The Num Lock key is used to toggle the number layout in the tools layer to output keypad numbers presses instead of number row presses. This is occassionally needed for some programs where they are mapped for a different use, or for entering in alt code characters.
     _See Num Lock Layer below for implimentation._
 
-###### Wire Layer `Layer 3` and Wire Activate Layer `Layer 5`
+#### Wire Layer `Layer 3` and Wire Activate Layer `Layer 5`
   - This layer is used only to impliment a toggle key function. This allows a key to output one macro with the first press, and a different macro on the second before switching back to the first macro if pressed a third time. 
   - Wireframe to shaded with lines requires two differnent commands in solidworks, but I wanted a key that would toggle back and forth between them.
   - The first keypress in the tools layer sends the first macro and then activates this layer that is completely transparent exept for this key.
   - The Wire Activate layer is completely transparent and is used to activate the wire layer on the conditional basis that the Tools layer is active. This way the wire layer function will only be active when the tools layer is also active.  
  
-###### Num Lock Layer `Layer 4` and Num Activate Layer `layer 6`
+#### Num Lock Layer `Layer 4` and Num Activate Layer `layer 6`
   - When active, the Num Lock layer overlays the number keys on the tools layer, and will output the equivelant number pad keypress. Most of the time this will not be needed. However, the bindings of the number row and the number pad numbers are treated slightly different by the system and in some programs they are mapped to different things. Alt code symbols are an excellent example of this.
   - The Num Lock layer is completely transparent except for the numbers. 
   - The Num Activate layer is completely transparent and is only used to activate the Num layer on the conditional basis that the Tools layer is also active. This way the Num Lock layer will turn itself on and off in tandom with the tools layer. This way it wont interfere with the functions on any other layers.
   
-###### Combos and Macros
+#### Combos and Macros
   - Combos and other behaviors are utilized to fit some things that didn't otherwise have a spot. Combo keys are indicated by little icons on the touching edges of both keys. (all combos are side by side)
   - Macros are heavily utilized to output the alt codes for the symbol keys on the right side of the tools layout.
     
-###### Layer Switching Keys
+#### Layer Switching Keys
   - The outermost lower left key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699)) on the left keypad switches between the default and the tools layer, holding it will toggle the utility layer.
   - The utility layer is a momentary sticky layer. The left layer key must be held to activate the layer, and then it is only good for one keypress before deactivating.
     - While the Layer Key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699)
@@ -239,6 +239,7 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 - [Custom labeled MBK Keycap set](https://fkcaps.com/custom/9WTR81) - In PBT white, allows for a custom color dye job!
 - Optional Customization: [Custom color mod keys MBK keycaps](https://fkcaps.com/custom/U5X2FC)
 - Solidworks Shortcuts to Program (WIP)[Solidworks Shortcut List  -  Allium58CAD.pdf](https://github.com/zxku/Allium58CAD/files/15178827/Solidworks.Shortcut.List.-.Allium58CAD.pdf)
+- [My personal Solidworks Workspace Settings Profile]
 
 
 # Solidworks Shortcuts Sketching and Modeling 
