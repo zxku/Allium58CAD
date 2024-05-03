@@ -68,7 +68,7 @@ Tenting of the keyboard case was tested, but it got in the way of using the Spac
 
 # Keymap 
 
-The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. This is accomplished using a combination of varrious ZMK behaviors. Details on the ZMK Behaviors can be found [here](https://zmk.dev/docs/behaviors/)
+The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. This is accomplished using a combination of varrious ZMK behaviors. An in depth explination is beyond the scope of this document, I recommend reading up on the official [ZMK Behavior documentation](https://zmk.dev/docs/behaviors/)
 
 
 ### Keymap Ideology and Theory
@@ -87,15 +87,15 @@ I would program new layers to be conditional over top of the default `tools` lay
      
 #### Tools Layer `Layer 1`
   - The "Tools" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
-  - The left hand of this layer is intended to be the primary imput while 3D modeling, while your other hand remains on the mouse. This is why the left side is crammed full of programing to hold all of the macros in addition to the all important number pad for dimentions and data entry. It should be noted that for solidworks, these keys do not cover all of my most frequently used commands. I have a lot of frequently used commands mapped to mouse gestures in the custom configurator.
+  - The left hand of this layer is intended to be the primary imput while 3D modeling, while your other hand remains on the mouse. This is why the left side is crammed full of programing to hold all of the macros in addition to the all important number pad for dimention and data entry. It should be noted that for solidworks, these keys do not cover all of my most frequently used commands. I have a lot of frequently used commands mapped to mouse gestures in the custom configurator.
   - In general, the Ergo Keyboard Community encorages no legend keycaps, touchtyping from memory only. However, the infrequency of using some of these shortcuts makes memorizing them difficult, Thus why I thought it would be important to have labeled legends. The touchtype memory is also effected by the shifting of the hand durring use. Although a much shorter distance that the standard SpaceMouse setup, the hand will still be required to shift back and forth between the number pad and the spacemouse position. (Additional Homing Keys are being considered to help this).
-  - There are two very frequently used keys that I have left out of the keymap because I have mapped them to the two keys on the spacemouse base.
+  - There are two other very frequently used commands that I have left out of the keymap because I have mapped them to the two keys on the spacemouse base.
     1) _Fit Normal To (a custom macro)_ - Executes "normal to" and then zooms to fit on the selected item, if one is selected. Great for working with non orthogonal working planes. Macro is set to execute "Normal To" and then "Zoom to Selection" in that order. If nothing selected, the zoom does nothing and it just re-orient to the closest orthogonal view. 
     2) _Lock Rotation_ - This command is specific to the SpaceMouse and is used to lock it into a pan only mode. Excellent for moving around a sketch on a werid plane. 
           >I've included a copy of my solidworks workspace settings in the firmware section for reference to how I have the other commands set up)
   
   
-  #### Tools Layer Modifier Keys
+  ###### Tools Layer Modifier Keys
   -  Workhorse and Control Mod Key Placement: All of the most used keys are grouped close to the spacemouse such that they should be able to be pressed with pinky or ring finger while holding the SpaceMouse Joystick. <sup>[1](#1)</sup>
   - Sketch Commands:  All of the sketch related shortcuts are activated using the Shift key as the modifier and then the legends top left listed command will be the action.
   - Model Commands:   All of the Model and Assembly related commands are activated using the Alt key as the modifier. The action is listed as the second line in the top left corner of the legend, underneath the sketch command mentioned above.
@@ -149,7 +149,8 @@ I would program new layers to be conditional over top of the default `tools` lay
   - The Num Activate layer is completely transparent and is only used to activate the Num layer on the conditional basis that the Tools layer is also active. This way the Num Lock layer will turn itself on and off in tandom with the tools layer. This way it wont interfere with the functions on any other layers.
   
 #### Combos and Macros
-  - Combos and other behaviors are utilized to fit some things that didn't otherwise have a spot. Combo keys are indicated by little icons on the touching edges of both keys. (all combos are side by side)
+  - Combos and other behaviors are utilized to fit some things that didn't otherwise have a spot. Combo keys are indicated by little icons on the touching edges of both keys.
+  - All Combos are side by side keys making it easier to remember them. 
   - Macros are heavily utilized to output the alt codes for the symbol keys on the right side of the tools layout.
     
 #### Layer Switching Keys
@@ -365,6 +366,7 @@ Others	|		Front		|	Ctrl+1
 ## Ordering Parts
 
 - Pre built Wireless: (https://shop.beekeeb.com/product/wireless-allium58-choc/)
+- 
 _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc version of the Allium58 on his website, he is very responsive, and if asked nicely he could probably send you one._
   
 ## External Libraries
@@ -372,10 +374,28 @@ _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc 
 
 ## More Information
 
+* {Official ZMK Documentation](https://zmk.dev/docs)
 
+* [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) by Nick Coutsos is a very handy GUI for creating keymaps. 
+  * It wont code everything, especially the details of the custom PR patches by [urob](https://github.com/urob) but it sure helps for building and visualizing the layout code. 
+
+* For understanding the nuances of the different hold-tap flavors and options, I found the animations of this beta [ZMK Hold-Tap Documentation](https://deploy-preview-1657--zmk.netlify.app/docs/behaviors/hold-tap) to be quite helpful. I dont know why it never got implimented, but be aware that some of the other sections in that ZMK document version contains out of date information and may be missleading. 
+
+* [beekeeb's store](https://shop.beekeeb.com/). 
+  - beekeeb also has an [etsy store]. I've noticed that sometimes there are things listed on etsy that are not listed on the offical store website, and vice-versa  
+
+* [FK Custom Keycaps] has a very intuitive web based builder for custom keycap legends. There is quite a selection provided and there is also provisions for uploading your own custom font and or vector image.
+
+* Rough guidelines for creating a [Custom Gradient Dye Job](https://www.reddit.com/r/MechanicalKeyboards/comments/1atzinr/gradient_handdyed_choc_keycap_set/). *\*Keycaps must be PBT for this to work!*
+
+* [Interesting guide](https://imgur.com/a/LB65p) for implimenting ball bearing home key bumps. *\*Be sure to use stainless steel ball bearings, long term users reported back that standard carbon steel BB's were causing some staining from the formation of slight surface rust.    - For anyone with a perfectionism streak, the machinists version can be found [here](https://www.reddit.com/r/MechanicalKeyboards/comments/6r3n1t/ball_bearing_homing_keys/).
 
 ## Credits
 
 This fork by zxku is an open source hardware project originally created by [beekeeb](https://beekeeb.shop) and other contributors. It is based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro).
 
+
 [<img src="docs/beekeeb.png" height="80" />](https://beekeeb.shop)
+
+
+zxku is a pseudonym for Zac Morhous, A senior product design and development engineer who knows what he wants, and will over-engineer the shit out of it as a personal side project if it doesnt exist. 
