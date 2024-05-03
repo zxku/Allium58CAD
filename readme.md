@@ -16,21 +16,16 @@ ___________________________________________________
 The Allium58CAD is a wireless open source 6*4+4keys column-staggered split keyboard that integrates an ortholinear QWERTY layout, SpaceMouse, macro pad, and a left number pad into a single system to optimize productivity and ergonomics in 3D design, CAD, Engineering, and 3D CNC programming. 
 It is a fork of the [Allium58 by beekeeb](https://github.com/beekeeb/Allium58) which is in turn based on [Lily58 Pro created by kata0510](https://github.com/kata0510/Lily58/tree/master/Pro). 
 
+&nbsp; 
   >[!note]
-  >Although split keyboards with a number row have fallen out of favor, that additional top row is nesessary to fit a left handed number pad layout. That is why the Allium58 was chosen as the base design. 
-
----
-The SpaceMouse itself is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) The Allium58CAD is designed to
+  >The SpaceMouse itself is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) The Allium58CAD is designed to
 integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
 
-_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve,
-but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.
-It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing.
-This lets your mouse be dedicated to selcting, drawing, etc._
+  >_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve,but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._
 
-_One beginner tip: Turn off perspective view to make navigation more predictable._
+>_One beginner tip: Turn off perspective view to make navigation more predictable._
 
----
+
 
   >[!tip]
   > _This design is configured for right handed mouse use, but could be easily mirrored to work in a left hand dominant setup._
@@ -76,10 +71,13 @@ The included keymap is designed to combine all the basic funcitons of a standard
 
 ### Keymap Ideology and Theory
 - One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the default layer.
+- The second priority was a left hand key layout that would provide both quick access to needed shortcut and macro keys while also providing an efficient 4x3 number pad within easy reach.  
+- Though the top number row has fallen out of favor with many ergonomic keymap enthusiasts, one of the main reasons for choosing the Allium58 layout was that extra row. Though, not for a *top* number row. That additional top row of keys is nesessary for a proper 4x3 number pad layout, an important addition for anyone working with lots of numbers.
+- Instead of numbers on the top row of the default layer, it has just the symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row. And I find myself using that top row for the symbols far more often than I use the numbers.
 - instead of splitting into many layers of working commands, I thought it made more sense to use 2 layers, and utilize modifier keys on the second layer to fit the extra commands. The benifit of this, is if you work in multiple 3D modeling programs you can seperate all of its related commands in a new layer. At that point I would probably alter the programming to utilize the layer key in conjunction with the number pad keys to select the active 3D program layer.
 I would program new layers to be conditional over top of the default `tools` layer such that you can still easily swap back to the alphabetical keys. This also saves you from duplicating any functions on the right keypad that are not getting changed (use `&trans`). It could be implimented in a simmilar way to the activation layers for the `Wire` layer and `Num Lock` layer
-- Instead of numbers on the top row of the default layer, it has just the symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row. And I find myself using that top row for the symbols far more often than I use the numbers.
-- Realistically, the only reason for choosing a 4 row keyboard was for the left hand number pad. It would actually be possible to use a corn style pcb on the right hand. I decided to utilize the unused keys on the right keypad of the `tools` layer for math and engineering symbols that I normally have to enter an Alt code for.  There is plenty of room for customization in this area if you have differnt needs.
+- Realistically, the only reason for choosing a 4 row keyboard was to fit the number pad. It would actually be possible to use a corn style pcb on the right hand. I decided to utilize those extra unused keys on the right keypad of the `tools` layer for math and engineering symbols that I normally have to enter an Alt code for. There is plenty of room for customization in this area if you have differnt needs.
+
 
 
 ### Layers Explained
