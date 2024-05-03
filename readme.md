@@ -238,8 +238,8 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 - Keymap file (WIP)
 - [Custom labeled MBK Keycap set](https://fkcaps.com/custom/9WTR81) - In PBT white, allows for a custom color dye job!
 - Optional Customization: [Custom color mod keys MBK keycaps](https://fkcaps.com/custom/U5X2FC)
-- Solidworks Shortcuts to Program (WIP)[Solidworks Shortcut List  -  Allium58CAD.pdf](https://github.com/zxku/Allium58CAD/files/15178827/Solidworks.Shortcut.List.-.Allium58CAD.pdf)
-- [My personal Solidworks Workspace Settings Profile]
+- Solidworks Shortcuts to Program (WIP)
+- [My personal Solidworks Workspace Settings Profile](https://github.com/zxku/Allium58CAD/blob/main/swSettingsReg%20Zac%20Alli58cad.sldreg)
 
 
 # Solidworks Shortcuts Sketching and Modeling 
