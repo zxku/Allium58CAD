@@ -68,16 +68,18 @@ Tenting of the keyboard case was tested, but it got in the way of using the Spac
 
 # Keymap 
 
-The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. Quite a few ZMK behaviors were utilized to make this happen. 
+The included keymap is designed to combine all the basic funcitons of a standard QWERTY layout with a left handed number pad, a macro pad, and a navigation pad. This is accomplished using a combination of varrious ZMK behaviors. Details on the ZMK Behaviors can be found [here](https://zmk.dev/docs/behaviors/)
 
 
 ### Keymap Ideology and Theory
 - One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the default layer.
+- instead of splitting into many layers of working commands, I thought it made more sense to use 2 layers, and utilize modifier keys on the second layer to fit the extra commands. The benifit of this, is if you work in multiple 3D modeling programs you can seperate all of its related commands in a new layer. At that point I would probably alter the programming to utilize the layer key in conjunction with the number pad keys to select the active 3D program layer.
+I would program new layers to be conditional over top of the default `tools` layer such that you can still easily swap back to the alphabetical keys. This also saves you from duplicating any functions on the right keypad that are not getting changed (use `&trans`). It could be implimented in a simmilar way to the activation layers for the `Wire` layer and `Num Lock` layer
 - Instead of numbers on the top row of the default layer, it has just the symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row. And I find myself using that top row for the symbols far more often than I use the numbers.
+- Realistically, the only reason for choosing a 4 row keyboard was for the left hand number pad. It would actually be possible to use a corn style pcb on the right hand. I decided to utilize the unused keys on the right keypad of the `tools` layer for math and engineering symbols that I normally have to enter an Alt code for.  There is plenty of room for customization in this area if you have differnt needs.
 
 
 ### Layers Explained
-
 #### Default Layer `Layer 0`
   - Instead of number keys across the top row of the default layer, it has just the corrisponding symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access to enter numbers. The number pad much faster than the number row for numerical entry. The symbols attached to those keys are used more often than I use the numbers. The parentheses in particular come to mind...
   - The layout tries to maintain as much standard QWERTY layout as possible, but not everything would fit perfectly. Several of the less used keys, : , ; , [ , ] , { , } , and DELETE, are implimented as side by side combos. Just hit two keys at the same time and it will output the corrisponding character.
@@ -165,13 +167,14 @@ The included keymap is designed to combine all the basic funcitons of a standard
 ![image](https://github.com/zxku/Allium58CAD/assets/167131775/155edd47-2541-422e-bad8-8e0543f858f6)
 
 ##### Full Legend:
-![image](https://github.com/zxku/Allium58CAD/assets/167131775/5cf9007b-901e-4cdd-955a-3b2f478582bf)
+![Full FK Custom Allium58CAD Keycap Legend](https://github.com/zxku/Allium58CAD/assets/167131775/301a595e-6371-44ca-bf71-c4f385eb0e90)
 
 
-[Link to FK custom layout](https://fkcaps.com/custom/2SJD2R). If you create a login, you should be able to modify this for your own customizations.
+[Link to FK custom layout](https://fkcaps.com/custom/N1EN6S) If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
+- You can also piece together a [custom remix](https://fkcaps.com/custom/U5X2FC) to add a little personality and flair. 
 
 
-##### Non-Standard Legend Icons
+##### Legend Icon Definitions
 
   |Key(s) | Legend Symbol| Command|
   |----|:----:|:------------------------------------------------------------------------------------------|
@@ -188,6 +191,9 @@ The included keymap is designed to combine all the basic funcitons of a standard
   Utility + # | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/9c222693-71a1-42ce-a168-894ba67bac09) | Toggle External Power Mode
   Shift [Double Tap] | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/453aa30d-4242-405f-ac7e-170e14d1593a) | CapsWord with auto deactivation
 Shift [Tripple Tap] | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/453aa30d-4242-405f-ac7e-170e14d1593a) | Traditional CapsLock function
+Shift + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d46717c0-d6e3-417f-bcf9-1d857f3994f5) | Show Spline Handles
+Alt + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/32b725a5-5d40-4b3a-9bf7-aa73a8de67cb) | Spell Check
+
 
 
 ## Status
@@ -246,56 +252,83 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 
 In this list, I have only included the shortcuts relevant to the Tools layer of the Allium58CAD key layout. The full List, including defalut shortcuts, is availible as a PDF in the firmware section.
 
-|Catagory|Command|Shortcut Keys|
+#### Main Commands
+
+
+|	|	 ****Quick Access Comands****			|	|
 |-----------:|:-----------------------------:|:-----------------------|
-|Tools|Select over Geometry..|T|	
-|View	|		Orientation..		|	SpaceBar			
-|Others	|		Show the Hovered-over Component/Bodies		|	Shift+TAB			
-|Tools|			Construction Geometry..		|	Shift+Q			
-|Tools	|		Spline..		|	Shift+Period			
-|Tools	|		Circle..		|	Shift+Num +			
-|Tools	|		3 Point Arc..		|	Shift+Num *			
-|View		|	MotionManager..		|	Shift+M			
-|Others	|		Collapse all Items.	|		Shift+C			|
-Tools		|	Override Dims on Drag/Move..	|		Shift+9			
-Tools		|	Close Sketch to Model..	|		Shift+8			
-Tools		|	Corner Rectangle..	|		Shift+6			
-Tools		|	Convert Entities..	|		Shift+5			
-Insert	|		Derived Sketch..		|	Shift+4			
-Tools		|	Straight Slot..		|	Shift+3			
-Tools		|	Offset Entities..		|	Shift+2			
-Tools		|	Display/Delete..		|	Shift+0			
-Others		|	Shortcut Bar		|	S			
-View		|	Wireframe..		|	Q			
-
-Tools		|	Line..	|		L,Shift+Num -			
-Others			Scroll to FeatureManager tree top			Home			
-Tools			Show Spline Handles..			H,Shift+1			
-Tools			Magnified Selection..			G,Alt+4			
-Others			Scroll to FeatureManager tree bottom			End			
-Edit			Delete..			Delete			
-Others			Move Selection Breadcrumbs, Confirmation Corner			D			
-Edit			Undo..			Ctrl+Z				
-Edit			Paste..			Ctrl+V			
-Others			View Selector			Ctrl+SpaceBar			
-View			Previous View..			Shift+Ctrl+Z	(Shift + Undo combo)		
-Edit			Paste Appearance..			Shift+Ctrl+V	(Shift + Paste combo)	
-
-File			Save..			Ctrl+S
-
-Tools			Unlock..			Ctrl+Alt+Shift+Num /
-
-Others			Isometric			Ctrl+7			
-Others			Bottom			Ctrl+6			
-Others			Back			Ctrl+2			
-
-Tools			Lock..			Alt+Shift+Num /			
-Tools			Check Out..			Alt+Num 8,Alt+8			
-Insert			Sweep..			Alt+Num 5,Alt+5			
-Tools			Silhouette Entities..			Alt+Num 4,Shift+7			
-Insert			Plane..			Alt+Num .,Alt+Period			
-Insert			Extrude..			Alt+Num *			
-Insert			Revolve..			Alt+3,Alt+Num 3			
+|**Catagory**|**Command**|**Shortcut Keys**|
+View	|		Orientation..		|	SpaceBar
+Others	|		View Selector		|	Ctrl+SpaceBar
+Others	|		Hide the Hovered-over Component/Bodies		|	TAB
+Others	|		Show the Hovered-over Component/Bodies		|	Shift+TAB
+Others	|		Show all the hidden Components/Bodies		|	Ctrl+Shift+TAB
+Edit	|		Repeat Last Command..		|	Enter
+Others	|		Expand/Collapse Tree		|	C
+Others	|		Normal To		|	Alt+SpaceBar
+Others	|		Zoom to Selection		|	Shift+SpaceBar
+Others	|		Shortcut Bar		|	S
+Others	|		Command option toggle		|	A
+Others	|		Move Selection Breadcrumbs, Confirmation Corner		|	D
+View	|		Wireframe..		|	Q
+View	|		Shaded With Edges..		|	Alt+Q
+Others	|		Spell Checker		|	Alt+Num 1
+| |				|	 |
+| |	**Sketch Commands**			|	|
+Tools	|		Construction Geometry..		|	Shift+Q
+Tools	|		Line..		|	Shift+Num -
+Tools	|		Spline..		|	Shift+Period
+Tools	|		Circle..		|	Shift+Num +
+Tools	|		3 Point Arc..		|	Shift+Num *
+Insert	|		Hole Wizard..		|	Alt+Num +
+Tools	|		Fully Define Sketch..		|	Shift+Num /
+Tools	|		Override Dims on Drag/Move..		|	Shift+9
+Tools	|		Close Sketch to Model..		|	Shift+8
+Tools	|		Silhouette Entities..		|	Shift+7
+Tools	|		Corner Rectangle..		|	Shift+6
+Tools	|		Convert Entities..		|	Shift+5
+Insert	|		Derived Sketch..		|	Shift+4
+Tools	|		Straight Slot..		|	Shift+3
+Tools	|		Offset Entities..		|	Shift+2
+Tools	|		Display/Delete..		|	Shift+0
+Tools	|		Show Spline Handles..		|	Shift+1
+|	|				|	 |
+|	|	**Standard Commands**			|	|
+Edit	|		Delete..		|	Delete
+Edit	|		Undo..		|	Ctrl+Z
+Edit	|		Redo..		|	Ctrl+Y
+Edit	|		Cut..		|	Ctrl+X
+Edit	|		Copy..		|	Ctrl+C
+Edit	|		Paste..		|	Ctrl+V
+File	|		Save..		|	Ctrl+S
+View	|		Previous View..		|	Shift+Ctrl+Z (Shift+ Undo Combo Keys)
+Edit	|		Copy Appearance..		|	Shift+Ctrl+C (Shift + Copy Combo Keys)
+Edit	|		Paste Appearance..		|	Shift+Ctrl+V (Shift + Paste Combo Keys)
+|	|				|	|
+|	|	**Model and Assembly Commands**			|	|
+Others	|		Select Other		|	Alt+Num /
+Insert	|		Plane..		|	Alt+Period
+Insert	|		Extruded Cut		|	Alt+Num *
+Insert	|		Extrude..		|	Alt+Num -
+Insert	|		Sweep..		|	Alt+2
+Insert	|		Revolve..		|	Alt+3,
+Tools	|		Magnified Selection..		|	Alt+4
+Insert	|		Sweep Cut		|	Alt+5
+Insert	|		Revolved Cut		|	Alt+6
+|	|				|	 |
+|	|	**PDM Commands**			|	|
+Tools	|		Get Latest Version..		|	Alt+7
+Tools	|		Check Out..		|	Alt+8
+Tools	|		Check In..		|	Alt+9
+|	|				|	|
+|	|	**Quick View  Commands**			|	|
+Others	|		Isometric		|	Ctrl+7
+Others	|		Bottom		|	Ctrl+6
+Others	|		Top		|	Ctrl+5
+Others	|		Right		|	Ctrl+4
+Others	|		Left		|	Ctrl+3
+Others	|		Back		|	Ctrl+2
+Others	|		Front		|	Ctrl+1
 
 ## Bill of Materials (BOM)
 
