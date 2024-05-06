@@ -21,7 +21,7 @@ It is a fork of the [Allium58 by beekeeb](https://github.com/beekeeb/Allium58) w
   >The SpaceMouse itself is a seperate product sold by [3DConnection](https://3dconnexion.com/dk/product/spacemouse-wireless/) The Allium58CAD is designed to
 integrate with the SpaceMouse by snapping tight to the SpaceMouse base with magnets.
 
-  >_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve,but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._
+  >_If you have never used a SpaceMouse, I highly recommend them. There is definitely a learning curve, but once you figure it out the SpaceMouse is a lifechanging improvement for navigating in a 3D space.It alows you to manipulate the 3D space simultanious and independent of what your mouse is doing. This lets your mouse be dedicated to selcting, drawing, etc._
 
 >_One beginner tip: Turn off perspective view to make navigation more predictable._
 
