@@ -155,11 +155,11 @@ I would program new layers to be conditional over top of the default `tools` lay
 
 
 
-### [Full Legend:](#fk)
+### [Full Legend:](#Full_Legend)
 ![Full FK Custom Allium58CAD Keycap Legend](https://github.com/zxku/Allium58CAD/assets/167131775/301a595e-6371-44ca-bf71-c4f385eb0e90)
 
 
-[Link to FK custom layout](https://fkcaps.com/custom/N1EN6S){#fk} If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
+Link_to [FK custom layout](https://fkcaps.com/custom/N1EN6S) If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
 - You can also piece together a [custom remix](https://fkcaps.com/custom/U5X2FC) to add a little personality and flair. 
 
 
@@ -402,7 +402,7 @@ _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc 
 * [beekeeb's store](https://shop.beekeeb.com/). 
   - beekeeb also has an [etsy store]. I've noticed that sometimes there are things listed on etsy that are not listed on the offical store website, and vice-versa  
 
-* [FK Custom Keycaps] has a very intuitive web based builder for custom keycap legends. There is quite a selection provided and there is also provisions for uploading your own custom font and or vector image.
+* [FK Custom Keycaps](https://fkcaps.com/custom/N1EN6S) has a very intuitive web based builder for custom keycap legends. There is quite a selection provided and there is also provisions for uploading your own custom font and or vector image.
 
 * Rough guidelines for creating a [Custom Gradient Dye Job](https://www.reddit.com/r/MechanicalKeyboards/comments/1atzinr/gradient_handdyed_choc_keycap_set/). *\*Keycaps must be PBT for this to work!*
 
