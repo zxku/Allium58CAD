@@ -241,13 +241,13 @@ Basic right and left stl files:
 
   a) The Allium58 PCB will require slight trimming on the lower right corner of the left hand PCB. This puts the spacemouse in a comfortable position to allow your ring and pinky fingers to reach the Control, S, D, A, and Escape buttons without repositioning your hand from the spacemouse. (S, D, and A are solidworks specific shortcut examples. These can be programmed differently for a different software)
   b) I recommend throughly taping off the rest of the exposed PCB with removable painters tape etc. to protect it from dust and debris.
-  c) A dremel tool with a cut off wheel works well. A fine tooth coping saw could probably also be used.  Follow the template below to make sure you dont overcut. 
+    c) A dremel tool with a cut off wheel would work, I ended up doing it with a sander and an 80grit belt. A fine tooth coping saw could probably also be used. 
 
    > [!important]
-   > ...Add Template Here...
+   > Use the top plate as a template for where to trim the PCB. 
 
 >[!Caution]
->------ Overcutting the PCB could render the bottom row of keys unuseable! Be cautious and precise to make sure you aren't cutting through any of the circut traces in that corner of the board!------
+>------ Overcutting the PCB could render the bottom row of keys unuseable! Be cautious and precise to make sure you dont damage any of the circut traces in that corner of the board!------
 
 &nbsp;  
 ## Firmware
