@@ -230,8 +230,17 @@ Initial build underway...     As of q 5/20/2023 this is still a work in progress
 &nbsp;  
 ## Case
 
-- Top Plate & Low Profile Bottom Case:     
-Basic right and left stl files:
+#### Top Plate & Low Profile Bottom Case:     
+
+- ![Bottom Right](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Alt-Left.STL)
+- ![Bottom Left](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Alt-Right.STL)
+- ![Top Plate](https://github.com/zxku/Allium58CAD/blob/main/allium58CAD_TopPlate.STL)
+Use the mirror command to get the other top plate.
+Also note that I used flat head M2 screws on the bottom, however, i put the countersinks in manually after printing because they didnt want to print very consistantly. 
+
+#### Solidworks Files:
+
+- ![These are the original solidworks files if you wanted to consider making any custom edits](https://github.com/zxku/Allium58CAD/blob/main/ALLIUM58CAD.zip)
 
 &nbsp;  
 # PCB Trimming Instructions: ...work in progres...
@@ -244,7 +253,7 @@ Basic right and left stl files:
     c) A dremel tool with a cut off wheel would work, I ended up doing it with a sander and an 80grit belt. A fine tooth coping saw could probably also be used. 
 
    > [!important]
-   > Use the top plate as a template for where to trim the PCB. 
+   > Use the 3D printed Top Plate as a template for where to trim the PCB. 
 
 >[!Caution]
 >------ Overcutting the PCB could render the bottom row of keys unuseable! Be cautious and precise to make sure you dont damage any of the circut traces in that corner of the board!------
