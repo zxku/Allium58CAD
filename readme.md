@@ -208,7 +208,7 @@ Alt + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/32b725a5
 &nbsp;  
 ## Status
 
-Initial build underway...     As of 4/30/2023 this is still a work in progress 
+Initial build underway...     As of q 5/20/2023 this is still a work in progress 
 
 &nbsp;  
 ## Photos
@@ -230,8 +230,8 @@ Initial build underway...     As of 4/30/2023 this is still a work in progress
 &nbsp;  
 ## Case
 
-- Top Plate & Low Profile Bottom Case:     ...To Be Added...
-
+- Top Plate & Low Profile Bottom Case:     
+Basic right and left stl files:
 
 &nbsp;  
 # PCB Trimming Instructions: ...work in progres...
