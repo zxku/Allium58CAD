@@ -416,7 +416,7 @@ _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc 
 &nbsp;  
 ## More Information
 
-* {Official ZMK Documentation](https://zmk.dev/docs)
+* [Official ZMK Documentation](https://zmk.dev/docs)
 
 * [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) by Nick Coutsos is a very handy GUI for creating keymaps. 
   * It wont code everything, especially the details of the custom PR patches by [urob](https://github.com/urob) but it sure helps for building and visualizing the layout code. 
