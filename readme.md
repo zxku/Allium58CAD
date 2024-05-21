@@ -233,13 +233,18 @@ Initial build underway...     As of q 5/20/2023 this is still a work in progress
 
 #### Top Plate & Low Profile Bottom Case:     
 
-- ![Bottom Right](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Alt-Left.STL)
-- ![Bottom Left](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Alt-Right.STL)
+- ![Bottom Right](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Right-3.0.STL)
+- ![Bottom Left](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Left-3.0.STL)
 - ![Top Plate](https://github.com/zxku/Allium58CAD/blob/main/allium58CAD_TopPlate.STL)
   
 Use the mirror command to get the other top plate. I found that I had to tweak the size of the top plate a bit to make it fit the switches right. I think it has to do with the 3D printer. I had to scale up by 0.05%, and even then it didn't want so sit down around the switches very well untill I had it screwed down. The good news, is that this means it's holding the switches very solidly.
 
 Also note that I used flat head M2 screws on the bottom, however, i put the countersinks in manually after printing because they didnt want to print very well. 
+
+#### Step Files
+- ![Bottom Left](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD_BottomLeft.STEP)
+- ![Bottom Right](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD_BottomRight.STEP)
+- ![Top Plate](https://github.com/zxku/Allium58CAD/blob/main/allium58CAD_TopPlate.STEP)
 
 #### Solidworks Files:
 
