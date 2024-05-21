@@ -70,24 +70,24 @@ The included keymap is designed to combine all the basic funcitons of a standard
 
 
 ### Keymap Ideology and Theory
-- One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the default layer.
+- One of my goals was to make sure that all of the standard availible QWERTY symbols be accessible in the "QWERTY" layer.
 - The second priority was a left hand key layout that would provide both quick access to needed shortcut and macro keys while also providing an efficient 4x3 number pad within easy reach.  
 - Though the top number row has fallen out of favor with many ergonomic keymap enthusiasts, one of the main reasons for choosing the Allium58 layout was that extra row. Though, not for a *top* number row. That additional top row of keys is nesessary for a proper 4x3 number pad layout, an important addition for anyone working with lots of numbers.
-- Instead of numbers on the top row of the default layer, it has just the symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row. And I find myself using that top row for the symbols far more often than I use the numbers.
+- Instead of numbers on the top row of the QWERTY layer, it has just the symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access any time I need to imput numbers. I find the number pad much faster than the number row. And I find myself using that top row for the symbols far more often than I use the numbers.
 - instead of splitting into many layers of working commands, I thought it made more sense to use 2 layers, and utilize modifier keys on the second layer to fit the extra commands. The benifit of this, is if you work in multiple 3D modeling programs you can seperate all of its related commands in a new layer. At that point I would probably alter the programming to utilize the layer key in conjunction with the number pad keys to select the active 3D program layer.
-I would program new layers to be conditional over top of the default `tools` layer such that you can still easily swap back to the alphabetical keys. This also saves you from duplicating any functions on the right keypad that are not getting changed (use `&trans`). It could be implimented in a simmilar way to the activation layers for the `Wire` layer and `Num Lock` layer
-- Realistically, the only reason for choosing a 4 row keyboard was to fit the number pad. It would actually be possible to use a corn style pcb on the right hand. I decided to utilize those extra unused keys on the right keypad of the `tools` layer for math and engineering symbols that I normally have to enter an Alt code for. There is plenty of room for customization in this area if you have differnt needs.
+I would program new layers to be conditional over top of the `CAD` layer such that you can still easily swap back to the alphabetical keys. This also saves you from duplicating any functions on the right keypad that are not getting changed (use `&trans`). It could be implimented in a simmilar way to the activation layers for the `Wire` layer and `Num Lock` layer
+- Realistically, the only reason for choosing a 4 row keyboard was to fit the number pad. It would actually be possible to use a corn style pcb on the right hand. I decided to utilize those extra unused keys on the right keypad of the `CAD` layer for math and engineering symbols that I normally have to enter an Alt code for. There is plenty of room for customization in this area if you have differnt needs.
 
 
 
 ### Layers Explained
-#### Default Layer `Layer 0`
-  - Instead of number keys across the top row of the default layer, it has just the corrisponding symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access to enter numbers. The number pad much faster than the number row for numerical entry. The symbols attached to those keys are used more often than I use the numbers. The parentheses in particular come to mind...
+#### QWERTY Layer `Layer 0`
+  - Instead of number keys across the top row of the QWERTY layer, it has just the corrisponding symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access to enter numbers. The number pad much faster than the number row for numerical entry. The symbols attached to those keys are used more often than I use the numbers. The parentheses in particular come to mind...
   - The layout tries to maintain as much standard QWERTY layout as possible, but not everything would fit perfectly. Several of the less used keys, : , ; , [ , ] , { , } , and DELETE, are implimented as side by side combos. Just hit two keys at the same time and it will output the corrisponding character.
   - Caps Lock is activiated using a double tap on the shift key.  It is a smart caps lock, so it will dissengage when any non alphabetical key is pressed. Traditional Caps Lock is activated with a tripple tap.
      
-#### Tools Layer `Layer 1`
-  - The "Tools" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
+#### CAD Layer `Layer 1`
+  - The "CAD" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
   - The left hand of this layer is intended to be the primary imput while 3D modeling, while your other hand remains on the mouse. This is why the left side is crammed full of programing to hold all of the macros in addition to the all important number pad for dimention and data entry. It should be noted that for solidworks, these keys do not cover all of my most frequently used commands. I have a lot of frequently used commands mapped to mouse gestures in the custom configurator.
   - In general, the Ergo Keyboard Community encorages no legend keycaps, touchtyping from memory only. However, the infrequency of using some of these shortcuts makes memorizing them difficult, Thus why I thought it would be important to have labeled legends. The touchtype memory is also effected by the shifting of the hand durring use. Although a much shorter distance that the standard SpaceMouse setup, the hand will still be required to shift back and forth between the number pad and the spacemouse position. (Additional Homing Keys are being considered to help this).
   - There are two other very frequently used commands that I have left out of the keymap because I have mapped them to the two keys on the spacemouse base.
@@ -96,7 +96,7 @@ I would program new layers to be conditional over top of the default `tools` lay
           >I've included a copy of my solidworks workspace settings in the firmware section for reference to how I have the other commands set up)
   
   
-  ###### Tools Layer Modifier Keys
+  ###### CAD Layer Modifier Keys
   -  Workhorse and Control Mod Key Placement: All of the most used keys are grouped close to the spacemouse such that they should be able to be pressed with pinky or ring finger while holding the SpaceMouse Joystick. <sup>[1](#1)</sup>
   - Sketch Commands:  All of the sketch related shortcuts are activated using the Shift key as the modifier and then the legends top left listed command will be the action.
   - Model Commands:   All of the Model and Assembly related commands are activated using the Alt key as the modifier. The action is listed as the second line in the top left corner of the legend, underneath the sketch command mentioned above.
@@ -106,46 +106,47 @@ I would program new layers to be conditional over top of the default `tools` lay
 
 
   - In general, the Ergo Keyboard Community seems to recommend legendless or blank keycaps, encoraging touchtype from memory. However, the infrequency of using some of these shortcuts makes memorizing them difficult, Thus why I thought it would be important to have labeled legends. The touchtype memory is also effected by the shifting of the hand durring use. Although a much shorter distance that the standard SpaceMouse setup, the hand will still be required to shift back and forth between the number pad and the spacemouse position. (Additional Homing Keys are being considered to help this).     
-  - The "Tools" layer is accessed in two ways:
-    1) A layer toggle on/off on the lower left pinky on the left keypad.
-    2) A "sticky momentary layer" toggle on the thumb of the right pad. This momentary switch is positioned such that it is easily reached while pressing the arrow keys.
+  - The "CAD" layer is accessed in two ways:
+    1) A layer toggle on/off on the lower left pinky on the left keypad.(![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699))
+    2) A "sticky momentary layer" toggle on the thumb of the right pad. ![image](https://github.com/zxku/Allium58CAD/assets/167131775/1077704a-1e81-4a24-a88b-078da37be6c5) This momentary switch is positioned such that it is easily reached while pressing the arrow keys. Holding the key will temporarily toggle the layer untill the key is released. 
          >("sticky momentary layer" is the term I use for urobs capsword [PR 1451](https://github.com/zmkfirmware/zmk/pull/1451#) that I use. In fact I use his entire [fork](https://github.com/urob/zmk). This PR allows you to impliment smart layers which is a modified capsword type of behavior for layers and things that are not alphanumerics. So after you tap the arrow nav toggle button, the layer will stay active untill you type anything that isnt a nav key, number key, or the layer toggle key)
 
    >[!warning]
-   >There are a couple of non-model related commands on the tools layer, such as the Check-In and Check-Out commands that are specific to PDM use that my not apply to everyone. If creating your own build, assess the provided list of default commands to make sure that they meet your needs before ordering a set of custom keycaps.
+   >There are a couple of non-model related commands on the CAD layer, such as the Check-In and Check-Out commands that are specific to PDM use that my not apply to everyone. If creating your own build, assess the provided list of default commands to make sure that they meet your needs before ordering a set of custom keycaps.
 
 #### Utility Layer `Layer 2`
   - This contains needed utility keys such as boot mode and bluetooth connectivity buttons.
-  - Layer can be accessed from the Default or Tools layers by holding the left layer key. This layer is designed with a sticky layer. you must hold the layer key to activate it and then press the desired action. The layer is automatically deactivated after that keypress to prevent accidental keypressing. To subsequently hit a different key in the utility layer, you would have to hold the layer key again. 
+  - Layer can be accessed from the QWERTY or CAD layers by holding the left layer key. This layer is designed with a sticky layer. you must hold the layer key to activate it and then press the desired action. The layer is automatically deactivated after that keypress to prevent accidental keypressing. To subsequently hit a different key in the utility layer, you would have to hold the layer key again. 
   - Programming is implimented to require a hold to activate boot, reset, and BT clear keys. This is to prevent accidental activation.
   - Blue Tooth Clear only clears the pairing for the currently selected connection, each pariring must be cleared individuallly. 
   - The key for bluetooth disconnect of each blutooth pairing is not labeled in the legend but are located in the row below their corrisponding selector key.
-  - The Num Lock key is used to toggle the number layout in the tools layer to output keypad numbers presses instead of number row presses. This is occassionally needed for some programs where they are mapped for a different use, or for entering in alt code characters.
+  - The Num Lock key is used to toggle the number layout in the CAD layer to output keypad numbers presses instead of number row presses. This is occassionally needed for some programs where they are mapped for a different use, or for entering in alt code characters.
     _See Num Lock Layer below for implimentation._
 
 #### Wire Layer `Layer 3` and Wire Activate Layer `Layer 5`
   - This layer is used only to impliment a toggle key function. This allows a key to output one macro with the first press, and a different macro on the second before switching back to the first macro if pressed a third time. 
   - Wireframe to shaded with lines requires two differnent commands in solidworks, but I wanted a key that would toggle back and forth between them.
-  - The first keypress in the tools layer sends the first macro and then activates this layer that is completely transparent exept for this key.
-  - The Wire Activate layer is completely transparent and is used to activate the wire layer on the conditional basis that the Tools layer is active. This way the wire layer function will only be active when the tools layer is also active.  
+  - The first keypress in the CAD layer sends the first macro and then activates this layer that is completely transparent exept for this key.
+  - The Wire Activate layer is completely transparent and is used to activate the wire layer on the conditional basis that the CAD layer is active. This way the wire layer function will only be active when the CAD layer is also active.  
  
 #### Num Lock Layer `Layer 4` and Num Activate Layer `layer 6`
-  - When active, the Num Lock layer overlays the number keys on the tools layer, and will output the equivelant number pad keypress. Most of the time this will not be needed. However, the bindings of the number row and the number pad numbers are treated slightly different by the system and in some programs they are mapped to different things. Alt code symbols are an excellent example of this.
+  - When active, the Num Lock layer overlays the number keys on the CAD layer, and will output the equivelant number pad keypress. Most of the time this will not be needed. However, the bindings of the number row and the number pad numbers are treated slightly different by the system and in some programs they are mapped to different things. Alt code symbols are an excellent example of this.
   - The Num Lock layer is completely transparent except for the numbers. 
-  - The Num Activate layer is completely transparent and is only used to activate the Num layer on the conditional basis that the Tools layer is also active. This way the Num Lock layer will turn itself on and off in tandom with the tools layer. This way it wont interfere with the functions on any other layers.
+  - The Num Activate layer is completely transparent and is only used to activate the Num layer on the conditional basis that the CAD layer is also active. This way the Num Lock layer will turn itself on and off in tandom with the CAD layer. This way it wont interfere with the functions on any other layers.
   
 #### Combos and Macros
   - Combos and other behaviors are utilized to fit some things that didn't otherwise have a spot. Combo keys are indicated by little icons on the touching edges of both keys.
   - All Combos are side by side keys making it easier to remember them. 
-  - Macros are heavily utilized to output the alt codes for the symbol keys on the right side of the tools layout.
+  - Macros are heavily utilized to output the alt codes for the symbol keys on the right side of the CAD layout.
     
 #### Layer Switching Keys
-  - The outermost lower left key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699)) on the left keypad switches between the default and the tools layer, holding it will toggle the utility layer.
+  - The outermost lower left key (![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699)) on the left keypad switches between the QWERTY and the CAD layer, holding it will toggle the utility layer.
   - The utility layer is a momentary sticky layer. The left layer key must be held to activate the layer, and then it is only good for one keypress before deactivating.
     - While the Layer Key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/769b777b-341b-4cc9-90ec-40f4285b0699)
  on the left keypad toggles the layers on and off, the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/1077704a-1e81-4a24-a88b-078da37be6c5) on the right keypad is used for temporary layer activation utilizing the smart layer function of [urobs PR #1415](https://github.com/zmkfirmware/zmk/pull/1451#) 
-    - Pressing the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the Default layer temporarily activates the Tools layer, allowing you to enter numbers and navigate with the arrow keys until spacebar, enter, return or a letter is pressed, when it will automatically return to the default layer.
-    - Simmilarily, pressing the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the Tools layer temporarily activates the default layer, allowing you to enter letters and words with the arrow keys untill a break key is press, when it will automatically return to the default layer. Break keys for the Temporary alpha layer access are spacebar, enter, return or other break keys such as the parentheses and brackets
+    - Pressing the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the QWERTY layer temporarily activates the CAD layer, allowing you to enter numbers and navigate with the arrow keys until spacebar, enter, return or a letter is pressed, when it will automatically return to the QWERTY layer.
+    - Tapping the Navigation layer key ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d38142fe-e0d3-477d-851a-7db4f9beb0b4) from the CAD layer will toggle back to the QWERTY layer. Holding the key will temporarily pull up the QWERTY layer until it is released.
+
 
 &nbsp;        
 # Legend Layout Guide
@@ -235,8 +236,10 @@ Initial build underway...     As of q 5/20/2023 this is still a work in progress
 - ![Bottom Right](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Alt-Left.STL)
 - ![Bottom Left](https://github.com/zxku/Allium58CAD/blob/main/Allium58CAD-bottom-Alt-Right.STL)
 - ![Top Plate](https://github.com/zxku/Allium58CAD/blob/main/allium58CAD_TopPlate.STL)
-Use the mirror command to get the other top plate.
-Also note that I used flat head M2 screws on the bottom, however, i put the countersinks in manually after printing because they didnt want to print very consistantly. 
+  
+Use the mirror command to get the other top plate. I found that I had to tweak the size of the top plate a bit to make it fit the switches right. I think it has to do with the 3D printer. I had to scale up by 0.05%, and even then it didn't want so sit down around the switches very well untill I had it screwed down. The good news, is that this means it's holding the switches very solidly.
+
+Also note that I used flat head M2 screws on the bottom, however, i put the countersinks in manually after printing because they didnt want to print very well. 
 
 #### Solidworks Files:
 
@@ -245,7 +248,7 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 &nbsp;  
 # PCB Trimming Instructions: ...work in progres...
 >[!warning]
->This section should be attempted with caution to make sure you dont render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do.
+>This section should be attempted with caution to make sure you dont render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do. It really doesnt remove that much material if done correctly.
 
 
   a) The Allium58 PCB will require slight trimming on the lower right corner of the left hand PCB. This puts the spacemouse in a comfortable position to allow your ring and pinky fingers to reach the Control, S, D, A, and Escape buttons without repositioning your hand from the spacemouse. (S, D, and A are solidworks specific shortcut examples. These can be programmed differently for a different software)
@@ -256,14 +259,14 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
    > Use the 3D printed Top Plate as a template for where to trim the PCB. 
 
 >[!Caution]
->**Overcutting the PCB could render the bottom row of keys unuseable! Be cautious and precise to make sure you dont damage any of the circut traces in that corner of the board!**
+>**Overcutting the PCB could render the bottom row of keys unuseable! Be cautious and precise to make sure you dont go too far and damage any of the circut traces in that corner of the board!**
 
 &nbsp;  
 ## Firmware
 
 - [ZMK](https://github.com/zmkfirmware/zmk "ZMK") - supported
 - [ZMK config files](https://github.com/zxku/zmk-config)
-- Keymap file (WIP)
+- [Keymap file](https://github.com/zxku/zmk-config/blob/zmk-config-cust-art/config/lily58.keymap)
 - [Custom labeled MBK Keycap set](https://fkcaps.com/custom/9WTR81) - In PBT white, allows for a custom color dye job!
 - Optional Customization: [Custom color mod keys MBK keycaps](https://fkcaps.com/custom/U5X2FC)
 - Solidworks Shortcuts to Program (WIP)
@@ -272,7 +275,7 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 &nbsp;  
 # Solidworks Shortcuts Sketching and Modeling 
 
-In this list, I have only included the shortcuts relevant to the Tools layer of the Allium58CAD key layout. The full List, including defalut shortcuts, is availible as a PDF in the firmware section.
+In this list, I have only included the shortcuts relevant to the CAD layer of the Allium58CAD key layout. The full List, including defalut shortcuts, is availible as a PDF in the firmware section.
 
 
 &nbsp;  
@@ -385,8 +388,8 @@ Others	|		Front		|	Ctrl + 1
 
 | Name | Count | Remarks |
 |:-|:-|:-|
-| OLED module / nice!view display | 2 | |
-| Microcontroller/OLED Sockets & Pins | 1 set |  | |
+| nice!view display | 2 | |
+| Microcontroller | 1 set |  | |
 
 
 &nbsp;  
