@@ -244,11 +244,13 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 #### Solidworks Files:
 
 - ![These are the original solidworks files if you wanted to consider making any custom edits](https://github.com/zxku/Allium58CAD/blob/main/ALLIUM58CAD.zip)
+* The left and right sides of the top and bottom are implimented as different configurations of the same parts. There is also an expirimental design in there that has an extra pillar built in for added glass support, it is not finalized.
+* The key switches and caps are rough placeholders for appearance only and the dimentions should be regarded as approxamate.
 
 &nbsp;  
 # PCB Trimming Instructions: ...work in progres...
 >[!warning]
->This section should be attempted with caution to make sure you dont render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do. It really doesnt remove that much material if done correctly.
+>This section should be attempted with caution to make sure you don't render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do. It really doesnt remove that much material if done correctly.
 
 
   a) The Allium58 PCB will require slight trimming on the lower right corner of the left hand PCB. This puts the spacemouse in a comfortable position to allow your ring and pinky fingers to reach the Control, S, D, A, and Escape buttons without repositioning your hand from the spacemouse. (S, D, and A are solidworks specific shortcut examples. These can be programmed differently for a different software)
