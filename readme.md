@@ -164,46 +164,7 @@ Link_to [FK custom layout](https://fkcaps.com/custom/N1EN6S) If you create a log
 - You can also piece together a [custom remix](https://fkcaps.com/custom/U5X2FC) to add a little personality and flair. 
 
 
-&nbsp;  
 
-
-### Keymap Legend Definitions and Icons Keybindings
-###### Most Used
-  
-  
-|Key(s) | Legend Symbol| Command | 
-|-----|:----:|------------------------------------------------------------------------------------------| 
-G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/e9f5ec32-9b74-4e83-a9e3-07bf1ad12107) | Opens a Shortcut Bar Menu at your cursor for quick selection. (This may get less use as I learn the shortcut keys)
-R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/f2d4ac75-305a-49ac-b0d9-a5fd7ad74c7d) | Toggles command option type. Toggles through availible command options such as tangent arc vs. 3 point arc. 
-F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/96e68555-f19a-46d3-a23c-b0344689cf55) | Brings confimation or cancellation box right to your mouse.
-Ctrl | | Multi Item Select
-Space | |  Shortcut for the orthogonal view selector cube. 
-Tab | | Used to Hide or Show a part in an assembly
-Delete, Alt, Shift, Esc, Enter |  | Need for these should be somewhat obvious
-Ctrl + G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0f770d24-6b35-4175-a9a7-7f9e12531ad7) | Redo
-Ctrl + F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/7e7e16a3-b0ec-4297-a5a9-cad5a4fa2781) | Undo
-Ctrl + R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/2828d102-53e8-4ee7-a732-5c4d31db29b8) | Expand Quick Access Feature Tree
-V & Ctrl V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/b1df7fdb-35c6-42ca-b534-1e2eb57c0165) | The combination of these two commands will toggle the view between wireframe and shaded with edges. Gives you X-ray vision...
-Ctrl + Esc | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/40c1eb96-3cf1-4cae-a795-c31c9173f367) | Save Shortcut
-
-###### Additional Command Keybindings
-  |Key(s) | Legend Symbol| Command|
-  |----|:----:|:------------------------------------------------------------------------------------------|
-  Shift + 9 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0b328cb1-4846-4b27-badc-13d96a7e5f34) | Override dimentions on Drag/Move
-  Shift + 8 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/ae43ea01-5e15-4b0d-857f-3ce816e3b133) | Close Sketch to Model
-  Shift + 7 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/e209138b-2930-4cf3-9b09-91801f26b6a2) | Silhouette Entities
-  Shift + 4 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/edabc6e0-9526-4d85-a424-9d162292e928) | Derived Sketch
-  Alt + 4 |![image](https://github.com/zxku/Allium58CAD/assets/167131775/8fb53452-710e-44d0-8e2a-51a3161f31a0) | Magnified Selection
-  Shift + 5 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/3ad5990d-cc3d-40c1-8871-4f415776df43) | Convert Entities
-  Shift + / | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/613d2405-0af0-42da-903a-2274b379ea01) | Fully Define Sketch
-  Alt + / | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/a0a4c3cd-9318-4a29-8765-0536acf56466) | Select Other
-  Shift + V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/fce707dc-465f-4ad5-a968-b94b68bc9c22) | Toggle "For Construction"
-  Alt + V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/166128db-c771-4421-a623-358d46988dc3) | *\*Reserved for future Transparancy toggle coding*
-  Utility + # | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/9c222693-71a1-42ce-a168-894ba67bac09) | Toggle External Power Mode
-  Shift [Double Tap] | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/453aa30d-4242-405f-ac7e-170e14d1593a) | CapsWord with auto deactivation
-Shift [Tripple Tap] | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/453aa30d-4242-405f-ac7e-170e14d1593a) | Traditional CapsLock function
-Shift + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d46717c0-d6e3-417f-bcf9-1d857f3994f5) | Show Spline Handles
-Alt + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/32b725a5-5d40-4b3a-9bf7-aa73a8de67cb) | Spell Check
 
 
 &nbsp;  
@@ -253,7 +214,7 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 * The key switches and caps are rough placeholders for appearance only and the dimentions should be regarded as approxamate.
 
 &nbsp;  
-# PCB Trimming Instructions: ...work in progres...
+# PCB Trimming Instructions: 
 >[!warning]
 >This section should be attempted with caution to make sure you don't render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do. It really doesnt remove that much material if done correctly.
 
@@ -279,8 +240,51 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 - Solidworks Shortcuts to Program (WIP)
 - [My personal Solidworks Workspace Settings Profile](https://github.com/zxku/Allium58CAD/blob/main/swSettingsReg%20Zac%20Alli58cad.sldreg)
 
+- 
 &nbsp;  
-# Solidworks Shortcuts Sketching and Modeling 
+
+
+## Keymap Legend Definitions and Icons Keybindings
+###### Most Used
+  
+  
+|Key(s) | Legend Symbol| Command | 
+|-----|:----:|------------------------------------------------------------------------------------------| 
+G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/e9f5ec32-9b74-4e83-a9e3-07bf1ad12107) | Opens a Shortcut Bar Menu at your cursor for quick selection. (This may get less use as I learn the shortcut keys)
+R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/f2d4ac75-305a-49ac-b0d9-a5fd7ad74c7d) | Toggles command option type. Toggles through availible command options such as tangent arc vs. 3 point arc. 
+F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/96e68555-f19a-46d3-a23c-b0344689cf55) | Brings confimation or cancellation box right to your mouse.
+Ctrl | | Multi Item Select
+Space | |  Shortcut for the orthogonal view selector cube. 
+Tab | | Used to Hide or Show a part in an assembly
+Delete, Alt, Shift, Esc, Enter |  | Need for these should be somewhat obvious
+Ctrl + G | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0f770d24-6b35-4175-a9a7-7f9e12531ad7) | Redo
+Ctrl + F | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/7e7e16a3-b0ec-4297-a5a9-cad5a4fa2781) | Undo
+Ctrl + R | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/2828d102-53e8-4ee7-a732-5c4d31db29b8) | Expand Quick Access Feature Tree
+V & Ctrl V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/b1df7fdb-35c6-42ca-b534-1e2eb57c0165) | The combination of these two commands will toggle the view between wireframe and shaded with edges. Gives you X-ray vision...
+Ctrl + Esc | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/40c1eb96-3cf1-4cae-a795-c31c9173f367) | Save Shortcut
+
+###### Additional Command Keybindings
+  |Key(s) | Legend Symbol| Command|
+  |----|:----:|:------------------------------------------------------------------------------------------|
+  Shift + 9 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/0b328cb1-4846-4b27-badc-13d96a7e5f34) | Override dimentions on Drag/Move
+  Shift + 8 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/ae43ea01-5e15-4b0d-857f-3ce816e3b133) | Close Sketch to Model
+  Shift + 7 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/e209138b-2930-4cf3-9b09-91801f26b6a2) | Silhouette Entities
+  Shift + 4 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/edabc6e0-9526-4d85-a424-9d162292e928) | Derived Sketch
+  Alt + 4 |![image](https://github.com/zxku/Allium58CAD/assets/167131775/8fb53452-710e-44d0-8e2a-51a3161f31a0) | Magnified Selection
+  Shift + 5 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/3ad5990d-cc3d-40c1-8871-4f415776df43) | Convert Entities
+  Shift + / | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/613d2405-0af0-42da-903a-2274b379ea01) | Fully Define Sketch
+  Alt + / | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/a0a4c3cd-9318-4a29-8765-0536acf56466) | Select Other
+  Shift + V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/fce707dc-465f-4ad5-a968-b94b68bc9c22) | Toggle "For Construction"
+  Alt + V | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/166128db-c771-4421-a623-358d46988dc3) | *\*Reserved for future Transparancy toggle coding*
+  Utility + # | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/9c222693-71a1-42ce-a168-894ba67bac09) | Toggle External Power Mode
+  Shift [Double Tap] | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/453aa30d-4242-405f-ac7e-170e14d1593a) | CapsWord with auto deactivation
+Shift [Tripple Tap] | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/453aa30d-4242-405f-ac7e-170e14d1593a) | Traditional CapsLock function
+Shift + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/d46717c0-d6e3-417f-bcf9-1d857f3994f5) | Show Spline Handles
+Alt + 1 | ![image](https://github.com/zxku/Allium58CAD/assets/167131775/32b725a5-5d40-4b3a-9bf7-aa73a8de67cb) | Spell Check
+
+
+&nbsp;  
+# Solidworks Shortcuts for Sketching and Modeling 
 
 In this list, I have only included the shortcuts relevant to the CAD layer of the Allium58CAD key layout. The full List, including defalut shortcuts, is availible as a PDF in the firmware section.
 
