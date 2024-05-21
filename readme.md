@@ -218,10 +218,11 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 >[!warning]
 >This section should be attempted with caution to make sure you don't render your keyboard unusable. Hoping to find an alternative solution for this in the future, but for now the modification will have to do. It really doesnt remove that much material if done correctly.
 
+  1) The Allium58 PCB will require slight trimming on the lower right corner of the left hand PCB. This puts the spacemouse in a comfortable position to allow your ring and pinky fingers to reach the Control, S, D, A, and Escape buttons without repositioning your hand from the spacemouse. (S, D, and A are solidworks specific shortcut examples. These can be programmed differently for a different software)
 
-  a) The Allium58 PCB will require slight trimming on the lower right corner of the left hand PCB. This puts the spacemouse in a comfortable position to allow your ring and pinky fingers to reach the Control, S, D, A, and Escape buttons without repositioning your hand from the spacemouse. (S, D, and A are solidworks specific shortcut examples. These can be programmed differently for a different software)
-  b) I recommend throughly taping off the rest of the exposed PCB with removable painters tape etc. to protect it from dust and debris.
-    c) A dremel tool with a cut off wheel would work, I ended up doing it with a sander and an 80grit belt. A fine tooth coping saw could probably also be used. 
+  2) I recommend throughly taping off the rest of the exposed PCB with removable painters tape etc. to protect it from dust and debris.
+
+  3) A dremel tool with a cut off wheel would work, I ended up doing it with a sander and an 80grit belt. A fine tooth coping saw could probably also be used. 
 
    > [!important]
    > Use the 3D printed Top Plate as a template for where to trim the PCB. 
