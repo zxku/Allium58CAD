@@ -424,7 +424,7 @@ _\*Although Beekeeb does not currently offer an unsoldered DIY kit for the Choc 
 * For understanding the nuances of the different hold-tap flavors and options, I found the animations of this beta [ZMK Hold-Tap Documentation](https://deploy-preview-1657--zmk.netlify.app/docs/behaviors/hold-tap) to be quite helpful. I dont know why it never got implimented, but be aware that some of the other sections in that ZMK document version contains out of date information and may be missleading. 
 
 * [beekeeb's store](https://shop.beekeeb.com/). 
-  - beekeeb also has an [etsy store]. I've noticed that sometimes there are things listed on etsy that are not listed on the offical store website, and vice-versa  
+  - beekeeb also has an [etsy store](https://www.etsy.com/shop/beekeeb). I've noticed that sometimes there are things listed on etsy that are not listed on the offical store website, and vice-versa  
 
 * [FK Custom Keycaps](https://fkcaps.com/custom/N1EN6S) has a very intuitive web based builder for custom keycap legends. There is quite a selection provided and there is also provisions for uploading your own custom font and or vector image.
 
@@ -442,4 +442,4 @@ This fork by zxku is an open source hardware project originally created by [beek
 [<img src="docs/beekeeb.png" height="80" />](https://beekeeb.shop)
 
 
-zxku is a pseudonym for Zac Morhous. A senior product design and development engineer who knows what he wants, and will over-engineer the shit out of it as a personal side project if it doesnt exist. 
+zxku is a pseudonym for Zac Morhous. A senior product design and development engineer who will over-engineer the shit out of a personal side project if nobody makes what he's looking for. 
