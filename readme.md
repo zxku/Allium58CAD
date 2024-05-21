@@ -243,7 +243,7 @@ Also note that I used flat head M2 screws on the bottom, however, i put the coun
 
 #### Solidworks Files:
 
-- ![These are the original solidworks files if you wanted to consider making any custom edits](https://github.com/zxku/Allium58CAD/blob/main/ALLIUM58CAD.zip)
+- ![These are the original solidworks files if you wanted to consider making any custom edits]([https://github.com/zxku/Allium58CAD/tree/main/ALLIUM58CAD)
 * The left and right sides of the top and bottom are implimented as different configurations of the same parts. There is also an expirimental design in there that has an extra pillar built in for added glass support, it is not finalized.
 * The key switches and caps are rough placeholders for appearance only and the dimentions should be regarded as approxamate.
 
