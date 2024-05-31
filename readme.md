@@ -157,10 +157,11 @@ I would program new layers to be conditional over top of the `CAD` layer such th
 
 
 ### [Full Legend:](#Full_Legend)
-![Full FK Custom Allium58CAD Keycap Legend](https://github.com/zxku/Allium58CAD/assets/167131775/301a595e-6371-44ca-bf71-c4f385eb0e90)
+![Full FK Custom Allium58CAD Keycap Legend](https://github.com/zxku/Allium58CAD/assets/167131775/fa6a6a14-12aa-499a-8344-080f35cf2d23)
 
 
-Link_to [FK custom layout](https://fkcaps.com/custom/N1EN6S) If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
+
+Link_to [FK custom layout](https://fkcaps.com/custom/3HGD1M) If you create a login, you should be able to modify this for your own customizations.  *If you go back to the keycap selection you can choose to change to precolored keycaps instead of blank PBT.*
 - You can also piece together a [custom remix](https://fkcaps.com/custom/U5X2FC) to add a little personality and flair. 
 
 
