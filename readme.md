@@ -1,12 +1,15 @@
 # Allium58CAD
 
-![Allium58CAD prototype2](https://github.com/zxku/Allium58CAD/assets/167131775/ff9a7fd3-d8ad-49f6-a4e2-4372c999faab)
+![finished photo](https://github.com/zxku/Allium58CAD/assets/167131775/45e99e1f-4ee1-44ca-bfb7-af560deadfc5)
+
 
 
 &nbsp;  
 ___________________________________________________
 ___________________________________________________
 THIS IS A WORK IN PROGRESS...
+
+""version 1.0 is finalized, but this readme still needs updating to reflect the final tweaks. I am also looking into a possible version 2.0 that incorperates stowable wrist rests into the case design.
 ___________________________________________________
 ___________________________________________________
 
@@ -171,11 +174,17 @@ Link_to [FK custom layout](https://fkcaps.com/custom/3HGD1M) If you create a log
 &nbsp;  
 ## Status
 
-Initial build underway...     As of q 5/20/2023 this is still a work in progress 
+Initial build has been finished. I am actively using this for my daily work. The readme still needs some finalization. I've also added some personal tweaks, such as custom art, to my primary config repository. 
 
 &nbsp;  
 ## Photos
 
+&nsbp;
+### Shots of the Finalized Keyboard: 
+![image1](https://github.com/zxku/Allium58CAD/assets/167131775/7f6fad69-4026-4dd4-9864-3a1231c89264)
+![image2](https://github.com/zxku/Allium58CAD/assets/167131775/8f858028-7093-4cf5-9503-2f448dd1a6d2)
+![image3](https://github.com/zxku/Allium58CAD/assets/167131775/1c0b2ac1-8538-4e7e-9d4b-9a7168619585)
+![image4](https://github.com/zxku/Allium58CAD/assets/167131775/3572674f-a512-4929-9390-604308efc7d7)
 
 &nbsp;  
 ### This picture is of the 3D printed moc up:
@@ -186,7 +195,6 @@ Initial build underway...     As of q 5/20/2023 this is still a work in progress
 ### Renderings:
 ![Allium58CAD prototype](https://github.com/zxku/Allium58CAD/assets/167131775/7d8de403-b1e2-47ef-907f-3594b26161f7)
 ![Allium58CAD prototype split](https://github.com/zxku/Allium58CAD/assets/167131775/04d745f9-60a9-4afb-99b2-9d7a1d351202)
-
 
 
 
