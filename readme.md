@@ -9,7 +9,7 @@ ___________________________________________________
 ___________________________________________________
 THIS IS A WORK IN PROGRESS...
 
-''version 1.0 is finalized, but this readme still needs updating to reflect the final tweaks. I am also looking into a possible version 2.0 that incorperates stowable wrist rests into the case design.''
+*Version 1.0 is finalized, but this readme still needs updating to reflect the final tweaks. I am also looking into a possible version 2.0 that incorperates stowable wrist rests into the case design.*
 ___________________________________________________
 ___________________________________________________
 
