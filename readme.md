@@ -84,14 +84,15 @@ I would program new layers to be conditional over top of the `CAD` layer such th
 
 
 ### Layers Explained
-#### QWERTY Layer `Layer 0`
+#### QWERTY/Default Layer `Layer 0`
   - Instead of number keys across the top row of the QWERTY layer, it has just the corrisponding symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access to enter numbers. The number pad much faster than the number row for numerical entry. The symbols attached to those keys are used more often than I use the numbers. The parentheses in particular come to mind...
   - The layout tries to maintain as much standard QWERTY layout as possible, but not everything would fit perfectly. Several of the less used keys, : , ; , [ , ] , { , } , and DELETE, are implimented as side by side combos. Just hit two keys at the same time and it will output the corrisponding character.
   - Caps Lock is activiated using a double tap on the shift key.  It is a smart caps lock, so it will dissengage when any non alphabetical key is pressed. Traditional Caps Lock is activated with a tripple tap.
      
-#### CAD Layer `Layer 1`
+#### CAD/Tools Layer `Layer 1`
   - The "CAD" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
   - The left hand of this layer is intended to be the primary imput while 3D modeling, while your other hand remains on the mouse. This is why the left side is crammed full of programing to hold all of the macros in addition to the all important number pad for dimention and data entry. It should be noted that for solidworks, these keys do not cover all of my most frequently used commands. I have a lot of frequently used commands mapped to mouse gestures in the custom configurator.
+  - The left hand numberpad keys are mapped to the standard keyboard number row keys, not the keypad ones. Some programs dont work with the keypad numbers in the same way and since this pad is the only numeric entry it made the most sense to do it this way. (there is an optional layer to enable the keypad number mapping. 
   - In general, the Ergo Keyboard Community encorages no legend keycaps, touchtyping from memory only. However, the infrequency of using some of these shortcuts makes memorizing them difficult, Thus why I thought it would be important to have labeled legends. The touchtype memory is also effected by the shifting of the hand durring use. Although a much shorter distance that the standard SpaceMouse setup, the hand will still be required to shift back and forth between the number pad and the spacemouse position. (Additional Homing Keys are being considered to help this).
   - There are two other very frequently used commands that I have left out of the keymap because I have mapped them to the two keys on the spacemouse base.
     1) _Fit Normal To (a custom macro)_ - Executes "normal to" and then zooms to fit on the selected item, if one is selected. Great for working with non orthogonal working planes. Macro is set to execute "Normal To" and then "Zoom to Selection" in that order. If nothing selected, the zoom does nothing and it just re-orient to the closest orthogonal view. 
@@ -132,8 +133,8 @@ I would program new layers to be conditional over top of the `CAD` layer such th
   - The first keypress in the CAD layer sends the first macro and then activates this layer that is completely transparent exept for this key.
   - The Wire Activate layer is completely transparent and is used to activate the wire layer on the conditional basis that the CAD layer is active. This way the wire layer function will only be active when the CAD layer is also active.  
  
-#### Num Lock Layer `Layer 4` and Num Activate Layer `layer 6`
-  - When active, the Num Lock layer overlays the number keys on the CAD layer, and will output the equivelant number pad keypress. Most of the time this will not be needed. However, the bindings of the number row and the number pad numbers are treated slightly different by the system and in some programs they are mapped to different things. Alt code symbols are an excellent example of this.
+#### Keypad Num Lock Layer `Layer 4` and Num Activate Layer `layer 6`
+  - When active, the Num Lock layer overlays the standard number row key mappings on the CAD layer, and will instead output the equivelant number pad keypress. Most of the time this will not be needed. However, the bindings of the number row and the number pad numbers are treated slightly different by the system and in some programs they are mapped to different things. Alt code symbols are an excellent example of this.
   - The Num Lock layer is completely transparent except for the numbers. 
   - The Num Activate layer is completely transparent and is only used to activate the Num layer on the conditional basis that the CAD layer is also active. This way the Num Lock layer will turn itself on and off in tandom with the CAD layer. This way it wont interfere with the functions on any other layers.
   
@@ -175,6 +176,8 @@ Link_to [FK custom layout](https://fkcaps.com/custom/3HGD1M) If you create a log
 ## Status
 
 Initial build has been finished. I am actively using this for my daily work. The readme still needs some finalization. I've also added some personal tweaks, such as custom art, to my primary config repository. 
+
+An example of a personal tweak that I made: I changed the display names of the main/default and CAD/tools layers so that it would be easier to identify which was active. For the way I usually have things positioned, the Nice!View display is often at a low viewing angle making it hard to read easily. To combat this, the CAD layer is just a series of pipes to fill in the display area while the main layer is just "abc". 
 
 &nbsp;  
 ## Photos
