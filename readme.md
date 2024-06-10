@@ -189,10 +189,6 @@ An example of a personal tweak that I made: I changed the display names of the m
 ![image3](https://github.com/zxku/Allium58CAD/assets/167131775/1c0b2ac1-8538-4e7e-9d4b-9a7168619585)
 ![image4](https://github.com/zxku/Allium58CAD/assets/167131775/3572674f-a512-4929-9390-604308efc7d7)
 
-&nbsp;  
-### This picture is of the 3D printed moc up:
-![Prototype Picture](https://github.com/zxku/Allium58CAD/assets/167131775/380984bc-6e11-4af9-8e7e-8524cc75f92c)
-
 
 &nbsp;  
 ### Renderings:
