@@ -84,12 +84,12 @@ I would program new layers to be conditional over top of the `CAD` layer such th
 
 
 ### Layers Explained
-#### QWERTY/Default Layer `Layer 0`
+#### QWERTY Layer `Layer 0`
   - Instead of number keys across the top row of the QWERTY layer, it has just the corrisponding symbols as the base fuction of the key. The number pad is availible via the momentary navigation key for quick access to enter numbers. The number pad much faster than the number row for numerical entry. The symbols attached to those keys are used more often than I use the numbers. The parentheses in particular come to mind...
   - The layout tries to maintain as much standard QWERTY layout as possible, but not everything would fit perfectly. Several of the less used keys, : , ; , [ , ] , { , } , and DELETE, are implimented as side by side combos. Just hit two keys at the same time and it will output the corrisponding character.
   - Caps Lock is activiated using a double tap on the shift key.  It is a smart caps lock, so it will dissengage when any non alphabetical key is pressed. Traditional Caps Lock is activated with a tripple tap.
      
-#### CAD/Tools Layer `Layer 1`
+#### CAD Layer `Layer 1`
   - The "CAD" layer contains the number pad and the shortcut keys on the left half, with the navigation arrow keys and additional math and engineering related symbols on the right half
   - The left hand of this layer is intended to be the primary imput while 3D modeling, while your other hand remains on the mouse. This is why the left side is crammed full of programing to hold all of the macros in addition to the all important number pad for dimention and data entry. It should be noted that for solidworks, these keys do not cover all of my most frequently used commands. I have a lot of frequently used commands mapped to mouse gestures in the custom configurator.
   - The left hand numberpad keys are mapped to the standard keyboard number row keys, not the keypad ones. Some programs dont work with the keypad numbers in the same way and since this pad is the only numeric entry it made the most sense to do it this way. (there is an optional layer to enable the keypad number mapping. 
@@ -156,7 +156,8 @@ I would program new layers to be conditional over top of the `CAD` layer such th
 # Legend Layout Guide
 
 ### Keycap Legend Location Layout:
-![Legend layout guide](https://github.com/zxku/Allium58CAD/assets/167131775/5a431003-e01b-44c2-8be6-0a0949a80c74)
+![Legend layout guide](https://github.com/zxku/Allium58CAD/assets/167131775/a56b553d-eff2-4892-a47b-5096e186057b)
+
 
 
 
@@ -177,7 +178,7 @@ Link_to [FK custom layout](https://fkcaps.com/custom/3HGD1M) If you create a log
 
 Initial build has been finished. I am actively using this for my daily work. The readme still needs some finalization. I've also added some personal tweaks, such as custom art, to my primary config repository. 
 
-An example of a personal tweak that I made: I changed the display names of the main/default and CAD/tools layers so that it would be easier to identify which was active. For the way I usually have things positioned, the Nice!View display is often at a low viewing angle making it hard to read easily. To combat this, the CAD layer is just a series of pipes to fill in the display area while the main layer is just "abc". 
+An example of a personal tweak that I made: I changed the display names of the QWERTY and CAD layers so that it would be easier to identify which was active. For the way I usually have things positioned, the Nice!View display is often at a low viewing angle making it hard to read easily. To combat this, the CAD layer is just a series of pipes to fill in the display area while the QWERTY layer is just "abc". 
 
 &nbsp;  
 ## Photos
